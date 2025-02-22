@@ -24,4 +24,4 @@ liveReloadServer.server.once("connection", function() {
     setTimeout(function() {
         liveReloadServer.refresh("/");
     }, 100);
-})
+});
