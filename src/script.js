@@ -1,31 +1,26 @@
 document.addEventListener("DOMContentLoaded", function() {
     const app = document.getElementById("app");
 
-    const routes = {
-        "/": {
-            title: "Home",
-            content: "<h1>Home Page</h1>"
-        },
-        "/about": {
-            title: "About",
-            content: "<h1>About Page</h1>"
-        },
-        "/references": {
-            title: "References",
-            content: "<h1>References Page</h1>"
-        },
-        "/contact": {
-            title: "Contact",
-            content: "<h1>Contact Page</h1>"
+    async function navigate(url) {
+        if (url === "/") {
+            history.pushState({ path: url }, "", url);
         }
-    };
-    function navigate(url) {
-        if (routes[url]) {
-            document.title = routes[url].title;
-            app.innerHTML = routes[url].content;
-            history.pushState({ path: url }, routes[url].title, url);
+
+        console.log(`Navigating to: ${url}`);
+
+        try {
+            const response = await fetch(`${route}.html`);
+            if (response.ok) {
+                app.innerHTML = await response.text();
+                history.pushState({ path: url }, "", url);
+            } else {
+                app.innerHTML = "<h1>Error: 404 - Page not Found D:</h1>";
+            }
+        } catch(error) {
+            console.error("Error loading page: ", error);
         }
     }
+
     document.querySelectorAll("nav a").forEach(function(link) {
         link.addEventListener("click", function(event) {
             event.preventDefault();
@@ -34,14 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     })
     window.addEventListener("popstate", function(event) {
-        const path = event.state?.path || "/";
-            navigate(path);
+        navigate(event.state?.path || "/");
     })
-
-    const { pathname } = window.location;
-    if (routes[pathname]) {
-        navigate(pathname);
-    } else {
-        navigate("/");
-    }
+    navigate(window.location.pathname);
 })
