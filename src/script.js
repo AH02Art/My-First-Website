@@ -1,23 +1,31 @@
 document.addEventListener("DOMContentLoaded", function() {
     const app = document.getElementById("app");
 
-    async function navigate(url) {
-        if (url === "/") {
-            history.pushState({ path: url }, "", url);
-        }
+    const routes = {
+        "/": {
+            title: "Home",
+            content: "<h1>Home Page</h1>"
+        },
+        "/about": {
+            title: "About",
+            content: "<h1>About Page</h1>"                
+        },
+        "/references": {
+            title: "References",
+            content: "<h1>References Page</h1>"                
+        },
+        "/contact": {
+            title: "Contact",
+            content: "<h1>Contact Page</h1>"                
+        },        
+    };
 
-        console.log(`Navigating to: ${url}`);
-
-        try {
-            const response = await fetch(`${route}.html`);
-            if (response.ok) {
-                app.innerHTML = await response.text();
-                history.pushState({ path: url }, "", url);
-            } else {
-                app.innerHTML = "<h1>Error: 404 - Page not Found D:</h1>";
-            }
-        } catch(error) {
-            console.error("Error loading page: ", error);
+    function navigate(url) {
+        if (routes[url]) {
+            document.title = routes[url].title;
+            app.innerHTML = routes[url].content;
+            console.log("HTML here? ===> ", app.innerHTML);
+            history.pushState({ path: url }, routes[url].title, url);
         }
     }
 
@@ -28,8 +36,16 @@ document.addEventListener("DOMContentLoaded", function() {
             navigate(url);
         })
     })
+
     window.addEventListener("popstate", function(event) {
-        navigate(event.state?.path || "/");
+        const path = event.state?.path || "/";
+        navigate(path);
     })
-    navigate(window.location.pathname);
+
+    const { pathname } = window.location.pathname;
+    if (routes[pathname]) {
+        navigate(pathname);
+    } else {
+        navigate("/");
+    }
 })

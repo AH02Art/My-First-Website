@@ -7,10 +7,10 @@ const server = express();
 const port = 5500;
 
 const liveReloadServer = livereload.createServer();
-liveReloadServer.watch(path.join(__dirname, "src", "index.html"));
+liveReloadServer.watch(path.join(__dirname, "src"));
 server.use(connectLivereload());
 
-server.use(express.static(path.join(__dirname, "src", "index.html")));
+server.use(express.static(path.join(__dirname, "src")));
 
 server.get("*", function(request, response) {{
     response.sendFile(path.join(__dirname, "src", "index.html"));
