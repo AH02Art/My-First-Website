@@ -4,28 +4,36 @@ document.addEventListener("DOMContentLoaded", function() {
     const routes = {
         "/": {
             title: "Home",
-            content: "<h1>Home Page</h1>"
+            file: "home.html"
         },
         "/about": {
             title: "About",
-            content: "<h1>About Page</h1>"                
+            file: "about.html"                
         },
         "/references": {
             title: "References",
-            content: "<h1>References Page</h1>"                
+            file: "references.html"                
         },
         "/contact": {
             title: "Contact",
-            content: "<h1>Contact Page</h1>"                
+            file: "contact.html"                
         },        
     };
 
-    function navigate(url) {
+    async function navigate(url) {
         if (routes[url]) {
             document.title = routes[url].title;
-            app.innerHTML = routes[url].content;
-            console.log("HTML here? ===> ", app.innerHTML);
-            history.pushState({ path: url }, routes[url].title, url);
+            try {
+                const response = await fetch(routes[url].file);
+                if (response.ok) {
+                    app.innerHTML = await response.text();
+                    history.pushState({ path: url }, routes[url].title, url);
+                } else {
+                    app.innerHTML = "<h1>ERROR 404 - Page Not Found</h1>";
+                }
+            } catch(error) {
+                console.error("Error loacing page: ", error);
+            }
         }
     }
 
@@ -43,9 +51,10 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 
     const { pathname } = window.location.pathname;
-    if (routes[pathname]) {
-        navigate(pathname);
-    } else {
-        navigate("/");
-    }
+    navigate(pathname in routes ? pathname : "/");
+    // if (routes[pathname]) {
+    //     navigate(pathname);
+    // } else {
+    //     navigate("/");
+    // }
 })
