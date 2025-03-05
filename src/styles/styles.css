@@ -1,4 +1,23 @@
+body {
+    background-color: #333333;
+}
+
 header {
-    
-    border: red, 1px, solid;
+    border: grey, 1px, solid;
+    padding: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: 24px;
+    /* border: red, 1px, solid; */
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.global-text {
+    color: white;
+    text-shadow: 2px 1px #000000, 0 0 24px #0080ff, 0 0 5px #0000ff;
 }
