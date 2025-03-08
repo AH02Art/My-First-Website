@@ -1,12 +1,22 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --blue: #0000ff;
+    --teal: #33ccff;
+    --blue_hover: #0080ff;
+    --teal_hover: #80dfff;
+    --lightGrey: #808080;
+    --darkGrey: #333333;
+}
+
 body {
-    background-color: #333333;
-    color: white;
-    text-shadow: 2px 1px #000000, 0 0 24px #0080ff, 0 0 5px #0000ff;
+    background-color: var(--darkGrey);
+    color: var(--white);
+    text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue);
 }
 
 header, footer {
-    border: grey, 1px, solid;
-    padding: 2rem;
+    border: var(--lightGrey), 1px, solid;
 }
 
 .item-alignment {
@@ -17,22 +27,28 @@ header, footer {
 h1 {
     font-size: 64px;
 }
+h2 {
+    font-size: 48px;
+}
 
 nav {
     gap: 10%;
     font-size: 24px;
+    padding: 2rem;
 }
 
 a:hover {
-    text-shadow: 2px 1px #000000, 0 0 24px #b3f0ff, 0 0 5px #00ccff;  
+    text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
 
 #div-1 {
-    
+    margin-top: 32px;
 }
 
 #alex-img {
     height: 200px;
     width: auto;
     border-radius: 100%;
+    margin: auto;
+    
 }
