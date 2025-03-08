@@ -1,23 +1,38 @@
 body {
     background-color: #333333;
+    color: white;
+    text-shadow: 2px 1px #000000, 0 0 24px #0080ff, 0 0 5px #0000ff;
 }
 
-header {
+header, footer {
     border: grey, 1px, solid;
     padding: 2rem;
 }
-nav {
+
+.item-alignment {
     display: flex;
-    justify-content: center;
-    gap: 5%;
-    font-size: 24px;
-    /* border: red, 1px, solid; */
-}
-a:hover {
-    text-decoration: underline;
+    justify-content: center;    
 }
 
-.global-text {
-    color: white;
-    text-shadow: 2px 1px #000000, 0 0 24px #0080ff, 0 0 5px #0000ff;
+h1 {
+    font-size: 64px;
+}
+
+nav {
+    gap: 10%;
+    font-size: 24px;
+}
+
+a:hover {
+    text-shadow: 2px 1px #000000, 0 0 24px #b3f0ff, 0 0 5px #00ccff;  
+}
+
+#div-1 {
+    
+}
+
+#alex-img {
+    height: 200px;
+    width: auto;
+    border-radius: 100%;
 }
