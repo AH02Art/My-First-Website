@@ -41,14 +41,13 @@ a:hover {
     text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
 
-#div-1 {
-    margin-top: 32px;
+#home-div {
+    margin-top: 64px;
 }
 
 #alex-img {
-    height: 200px;
+    height: 256px;
     width: auto;
     border-radius: 100%;
     margin: auto;
-    
 }
