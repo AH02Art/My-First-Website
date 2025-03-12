@@ -7,47 +7,53 @@
     --teal_hover: #80dfff;
     --lightGrey: #808080;
     --darkGrey: #333333;
+    --header1: 64px;
+    --header2: 48px;
+    --header3: 32px;
+    --header4: 24px;
+    --header5: 16px;
+    --header6: 8px;
 }
 
 body {
     background-color: var(--darkGrey);
-    color: var(--white);
-    text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue);
 }
 
 header, footer {
-    border: var(--lightGrey), 1px, solid;
+    border: var(--lightGrey), 1px, solid;  
 }
 
-.item-alignment {
+.flex {
     display: flex;
     justify-content: center;    
 }
 
-h1 {
-    font-size: 64px;
-}
-h2 {
-    font-size: 48px;
-}
+h1 { font-size: var(--header1); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
+h2 { font-size: var(--header2); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
+h3 { font-size: var(--header3); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
+h4 { font-size: var(--header4); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
+h5 { font-size: var(--header5); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
+h6 { font-size: var(--header6); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
+a { color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
+p { font-size: var(--header4); color: var(--white); }
 
 nav {
     gap: 10%;
-    font-size: 24px;
+    font-size: 32px;
     padding: 2rem;
 }
-
 a:hover {
     text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
 
 #home-div {
-    margin-top: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 #alex-img {
-    height: 256px;
+    height: 300px;
     width: auto;
+    border: var(--blue_hover) 2px, solid;
     border-radius: 100%;
-    margin: auto;
 }
