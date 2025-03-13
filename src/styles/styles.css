@@ -55,11 +55,9 @@ a:hover {
 #div-1 {
     padding-top: 40px;
     padding-bottom: 40px;
-    border: var(--blue_hover), 2px, solid;
 }
 
 #div-2 {
-    padding-top: 40px;
     padding-bottom: 40px;
     border: red, 2px, solid;
 }
