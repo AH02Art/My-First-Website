@@ -46,29 +46,41 @@ a:hover {
     text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
 
-#home-div {
+#home-intro {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#div-1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: blue, 2px, solid;
+}
+
+#home-img {
+    height: 300px;
+    width: auto;
+    border-radius: 100%;
+    border: var(--blue_hover) 2px, solid;
+    box-shadow: 10px, 10px, 5px, var(--blue);
+}
+
+/* #about-div {
     align-items: center;
     gap: 50px;
     padding: 128px;
     padding-top: 64px;
     padding-bottom: 64px;
     border: green, 2px, solid;
-}
+} */
 
-#div-1 {
+/* #div-3 {
     align-items: center;    
     border: blue, 2px, solid;
 }
 
-#div-2 {
+#div-4 {
     flex: 1;
     word-wrap: break-word;
     border: red, 2px, solid;
-}
-
-#alex-img {
-    height: 500px;
-    width: auto;
-    border: var(--blue_hover) 2px, solid;
-    border-radius: 100%;
-}
+} */
