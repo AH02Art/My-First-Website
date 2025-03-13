@@ -13,6 +13,7 @@
     --header4: 24px;
     --header5: 16px;
     --header6: 8px;
+    --shadow: 2px 2px var(--black), 0 0 40px var(--blue_hover), 0 0 10px var(--blue);
 }
 
 body {
@@ -28,13 +29,13 @@ header, footer {
     justify-content: center;    
 }
 
-h1 { font-size: var(--header1); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
-h2 { font-size: var(--header2); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
-h3 { font-size: var(--header3); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
-h4 { font-size: var(--header4); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
-h5 { font-size: var(--header5); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
-h6 { font-size: var(--header6); color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
-a { color: var(--white); text-shadow: 2px 1px var(--black), 0 0 24px var(--blue_hover), 0 0 5px var(--blue); }
+h1 { font-size: var(--header1); color: var(--white); text-shadow: var(--shadow); }
+h2 { font-size: var(--header2); color: var(--white); text-shadow: var(--shadow); }
+h3 { font-size: var(--header3); color: var(--white); text-shadow: var(--shadow); }
+h4 { font-size: var(--header4); color: var(--white); text-shadow: var(--shadow); }
+h5 { font-size: var(--header5); color: var(--white); text-shadow: var(--shadow); }
+h6 { font-size: var(--header6); color: var(--white); text-shadow: var(--shadow); }
+a { color: var(--white); text-shadow: var(--shadow); }
 p { font-size: var(--header4); color: var(--white); }
 
 nav {
@@ -54,18 +55,23 @@ a:hover {
 #div-1 {
     padding-top: 40px;
     padding-bottom: 40px;
-    border: blue, 2px, solid;
+    border: var(--blue_hover), 2px, solid;
+}
+
+#div-2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: red, 2px, solid;
 }
 
 #home-img {
     height: 300px;
     width: auto;
     border-radius: 100%;
-    border: var(--blue_hover) 2px, solid;
-    box-shadow: 10px, 10px, 5px, var(--blue);
+    box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
 }
 
-/* #about-div {
+#about-div {
     align-items: center;
     gap: 50px;
     padding: 128px;
@@ -74,7 +80,7 @@ a:hover {
     border: green, 2px, solid;
 } */
 
-/* #div-3 {
+#div-3 {
     align-items: center;    
     border: blue, 2px, solid;
 }
@@ -83,4 +89,4 @@ a:hover {
     flex: 1;
     word-wrap: break-word;
     border: red, 2px, solid;
-} */
+}
