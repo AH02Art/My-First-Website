@@ -2,7 +2,7 @@
   "name": "my-first-website",
   "version": "1.0.0",
   "description": "Building my first website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "server": "nodemon server.js"
   },

@@ -9,14 +9,34 @@ const app = express();
 const PORT = 5500;
 
 const liveReloadServer = livereload.createServer();
-liveReloadServer.watch([path.join(__dirname, "views"), path.join(__dirname, "public")]);
+liveReloadServer.watch([
+    path.join(__dirname, "views"), 
+    path.join(__dirname, "public")
+]);
+
+// Live server watching what files get changed in the specified folder on line 34
+liveReloadServer.server.once("connection", function() {
+    console.log("LiveReload is connected...");
+    setTimeout(function() {
+        console.log("Refreshing the browser");
+        liveReloadServer.refresh("/"); 
+    }, 100);
+});
+
+// // Live server showing what file got changed
+// liveReloadServer.server.on("change", (file) => {
+//     if (file.endsWith(".ejs")) {
+//         console.log(`File updated: ${file}`);
+//         liveReloadServer.refresh("/"); 
+//     }
+// });
+
 app.use(connectLivereload());
+app.use(express.static(path.join(__dirname, "public")));
 
 // Set EJS as the templating engine
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
-
-app.use(express.static(path.join(__dirname, "public")));
 
 // Some routes
 app.get("/", (request, response) => response.render("index", { title: "Home" }));
@@ -28,7 +48,3 @@ app.listen(PORT, function() {
     console.log(`*** Website is live on: http://localhost:${PORT} ***`);
 });
 
-// Live server watching what files get changed in the specified folder on line 34
-liveReloadServer.server.once("connection", function() {
-    setTimeout(function() { liveReloadServer.refresh("/"); }, 100);
-});
