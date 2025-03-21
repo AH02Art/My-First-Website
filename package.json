@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "connect-livereload": "^0.6.1",
-    "ejs": "^3.1.10",
     "express": "^4.21.2",
     "livereload": "^0.9.3"
   },
