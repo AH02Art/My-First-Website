@@ -88,7 +88,6 @@ p, li { font-size: var(--header4); color: var(--white); }
 
 .training-div {
     padding-bottom: 40px;
-    border: red, 2px, solid;
 }
 .training-list {
     text-align: center;

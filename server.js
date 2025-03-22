@@ -25,7 +25,7 @@ liveReloadServer.server.once("connection", function() {
 });
 
 // I commented this stuff out because it's not needed, but I'll save for reference...
-/* Live server displaying what file got changed
+/* // Live server displaying what file got changed
 liveReloadServer.server.on("change", (file) => {
     if (file.endsWith(".ejs")) {
         console.log(`File updated: ${file}`);
