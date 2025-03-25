@@ -16,6 +16,8 @@
     --shadow: 2px 2px var(--black), 0 0 40px var(--blue_hover), 0 0 10px var(--blue);
 }
 
+/* look at these pretty purple colors!! #bf00ff; and #aa00ff; */
+
 body {
     background-color: var(--darkGrey);
 }
