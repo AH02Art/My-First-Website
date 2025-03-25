@@ -46,6 +46,10 @@ h6 { font-size: var(--header6); color: var(--white); text-shadow: var(--shadow);
 a { color: var(--white); text-shadow: var(--shadow); }
 p, li { font-size: var(--header4); color: var(--white); }
 
+a:hover {
+    text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
+}
+
 
 .nav {
     text-align: center;
@@ -60,9 +64,6 @@ p, li { font-size: var(--header4); color: var(--white); }
     padding-left: 3rem;
     padding-right: 3rem;
     text-decoration: none;
-}
-.nav a:hover {
-    text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
 
 .header-border {
@@ -103,10 +104,18 @@ p, li { font-size: var(--header4); color: var(--white); }
     padding-right: 16px;
 }
 
+.certificate-img {
+    height: 500px;
+    width: auto;
+}
+
+.contact-div {
+    padding-bottom: 64px;    
+}
+
 .contact-display {
     font-size: var(--header4);
 }
-
 
 #about-div {
     align-items: center;
