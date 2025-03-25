@@ -103,6 +103,10 @@ p, li { font-size: var(--header4); color: var(--white); }
     padding-right: 16px;
 }
 
+.contact-display {
+    font-size: var(--header4);
+}
+
 
 #about-div {
     align-items: center;
