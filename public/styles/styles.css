@@ -51,8 +51,6 @@ p, li { font-size: var(--header4); color: var(--white); }
 a:hover {
     text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
-
-
 .nav {
     text-align: center;
     font-size: 32px;
