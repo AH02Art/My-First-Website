@@ -88,7 +88,7 @@ a:hover {
 }
 
 .training-div {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 .training-list {
     text-align: center;
@@ -104,6 +104,10 @@ a:hover {
     padding-right: 16px;
 }
 
+.images-div {
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
 .certificate-img {
     height: 500px;
     width: auto;
