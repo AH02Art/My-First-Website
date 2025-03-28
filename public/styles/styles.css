@@ -131,7 +131,7 @@ a:hover {
     padding-bottom: 64px;    
 }
 .contact-space {
-    gap: 16px;
+    gap: 8px;
 }
 .contact-display {
     font-size: var(--header4);
