@@ -71,6 +71,8 @@ a:hover {
 }
 .footer-border {
     border-top: 1px solid var(--lightGrey);
+    padding-top: 6px;
+    padding-bottom: 100px;
 }
 
 .home-intro {
@@ -113,30 +115,24 @@ a:hover {
     width: auto;
 }
 
-.contact-div {
-    padding-bottom: 64px;    
-}
-
-.contact-display {
-    font-size: var(--header4);
-}
-
-#about-div {
+.about-div {
     align-items: center;
     gap: 50px;
     padding: 128px;
     padding-top: 64px;
     padding-bottom: 64px;
-    border: green, 2px, solid;
-} */
-
-#div-3 {
-    align-items: center;    
-    border: blue, 2px, solid;
+    border: red, 2px, solid;
 }
-
-#div-4 {
+.paragraph-1 {
     flex: 1;
     word-wrap: break-word;
-    border: red, 2px, solid;
+}
+.contact-div {
+    padding-bottom: 64px;    
+}
+.contact-space {
+    gap: 16px;
+}
+.contact-display {
+    font-size: var(--header4);
 }
