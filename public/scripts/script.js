@@ -33,5 +33,8 @@ function rightB_Function(event) {
     }
 }
 
+// plan: make it to where the images visually "scroll" quickly on and off screen when buttons are selected
+// plan: there'll be a new button that adds a download button for the certificate
+
 right_Button.addEventListener("click", rightB_Function);
 right_Button.addEventListener("keydown", rightB_Function);
