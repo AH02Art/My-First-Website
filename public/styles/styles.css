@@ -30,6 +30,13 @@ body::-webkit-scrollbar {
 header {
     border-bottom: var(--lightGrey), 1px, solid;
 }
+header a {
+    transition: .25s;
+}
+header a:hover {
+    transform: scale(1.5);
+}
+
 .flex {
     display: flex;
     justify-content: center;    
@@ -112,14 +119,13 @@ a:hover {
     padding-bottom: 16px;
     padding-top: 32px;
 }
+
 .certificate-img {
     height: 500px;
     width: auto;
-    transition: .25s;
 }
-.certificate-img:hover {
-    transform: scale(1.5);
-}
+
+
 .img-buttons {
     font-size: var(--header1);
     color: var(--blue);
