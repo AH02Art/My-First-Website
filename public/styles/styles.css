@@ -119,49 +119,68 @@ a:hover {
     padding-bottom: 16px;
     padding-top: 32px;
 }
-
 .certificate-img {
     height: 500px;
     width: auto;
 }
-
-
 .img-buttons {
-    font-size: var(--header1);
     color: var(--blue);
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
     background-color: var(--darkerGrey);
     border: var(--blue), 2px, solid;
-    border-radius: 25%;
 }
-
 .img-buttons:hover {
-    font-size: var(--header1);
     color: var(--blue_hover);
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
     background-color: var(--darkerGrey);
     border: var(--blue_hover), 2px, solid;
+}
+.navigate-buttons {
+    font-size: var(--header1);
     border-radius: 25%;
 }
+.close-button {
+    font-size: var(--header3); 
+    color: var(--white);
+}
+.close-button:hover {
+    color: var(--white);
+    border: var(--white), 2px, solid;
+}
 
-.about-div {
+.download-button {
+    font-size: var(--header3);
+    color: var(--white);
+    border-radius: 16px;
+}
+.download-button:hover {
+    text-decoration: underline;
+    color: var(--white);
+}
+.about-container {
     align-items: center;
     gap: 50px;
     padding: 128px;
     padding-top: 64px;
     padding-bottom: 64px;
-    border: red, 2px, solid;
 }
+
+.about-img {
+    padding: 64px;
+}
+
 .paragraph-1 {
-    flex: 1;
     word-wrap: break-word;
+    border: var(--blue), 2px, solid;
+    border-radius: 24px;
+    background-color: var(--darkerGrey);
 }
 .contact-div {
-    padding-bottom: 64px;    
+    padding-bottom: 50px;    
 }
 .contact-space {
     gap: 8px;
