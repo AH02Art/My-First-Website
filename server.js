@@ -47,6 +47,7 @@ app.get("/", (request, response) => {
     response.render("download");
 });
 app.get("/about", (request, response) => response.render("about", { title: "About" }));
+app.get("/projects", (request, response) => response.render("projects", { title: "Project" }));
 app.get("/contact", (request, response) => response.render("contact", { title: "Contact" }));
 
 // Starting the server
