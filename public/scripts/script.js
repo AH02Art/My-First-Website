@@ -33,39 +33,20 @@ document.getElementById("close").addEventListener("click", () => {
     overlay.classList.remove("active");
 })
 
-// ESC key to close
+// ESC key and clicking outside of zoomed image to close
 document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
-        overlay.classList.remove("active");
+        closeLightbox();
     }
-})
+});
 
-// clicking outside of box to close
-document.addEventListener("click", (event) => {
-    if (event.c === "Escape") {
-        overlay.classList.remove("active");
+overlay.addEventListener("click", (event) => {
+    // Only close if you clicked *on* the overlay, not inside image/buttons
+    if (event.target === overlay) {
+        closeLightbox();
     }
-})
-
-// // Download
-// document.querySelector("a[download]").addEventListener("click", (event) => {
-//     event.preventDefault();
-//     const link = document.createElement("a");
-//     link.href = `certificate${currentImageIndex + 1}.png`;
-//     document.body.appendChild(link);
-//     link.click();
-//     document.body.removeChild(link);
-// })
-
-// plan: make it to where the images visually "scroll" quickly on and off screen when buttons are selected
-// plan: there'll be a new button that adds a download button for the certificate
-
-function downloadCertificate(uri, name) {
-    const link = document.getElementById("download");
-    link.download = name;
-    link.href = uri;
-    link.click();
+});
+function closeLightbox() {
+    const overlay = document.getElementById("lightbox-overlay");
+    overlay.style.display = "none";
 }
-
-right_Button.addEventListener("click", rightB_Function);
-right_Button.addEventListener("keydown", rightB_Function);
