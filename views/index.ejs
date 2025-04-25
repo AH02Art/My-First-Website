@@ -40,19 +40,15 @@
             <img id="c1" class="certificate-img" src="images/certificate1.png">
             <img id="c2" class="certificate-img" src="images/certificate2.png">
         </div>
-        <div>
-            <!-- found these arrows @ https://www.i2symbol.com/symbols/arrows -->
-            <div>
-                <button id="left-button" class="img-buttons navigate-buttons" type="button">⇦</button>
+        <div id="lightbox-overlay" class="overlay">
+            <img id="lightbox-image" src="" alt="Certificate Preview" />
+            <div class="menu-opening">
+                <!-- found these arrows @ https://www.i2symbol.com/symbols/arrows -->
+                <button id="left-button" class="img-buttons navigate-buttons">⇦</button>
+                <button id="right-button" class="img-buttons navigate-buttons">⇨</button>                
+                <button id="close" class="img-buttons close-button">X</button>                
+                <a href="Certificate.pdf" download="Certificate.pdf" class="img-buttons close-button">Download PDF</a>
             </div>
-            <div>
-                <button id="right-button" class="img-buttons navigate-buttons" type="button">⇨</button>                
-            </div>
-            <div>
-                <button id="close" class="img-buttons close-button" type="button">X</button>                
-            </div>
-            <a href="/public/Certificate.pdf" download="Certificate.pdf">download</a>
-            <!-- <button id="download" class="img-buttons download-button" type="button">download</button> -->
         </div>
     </div>
 </main>

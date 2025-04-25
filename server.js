@@ -24,16 +24,6 @@ liveReloadServer.server.once("connection", function() {
     }, 100);
 });
 
-// I commented this stuff out because it's not needed, but I'll save for reference...
-/* // Live server displaying what file got changed
-liveReloadServer.server.on("change", (file) => {
-    if (file.endsWith(".ejs")) {
-        console.log(`File updated: ${file}`);
-        liveReloadServer.refresh("/"); 
-    }
-});
-*/
-
 app.use(connectLivereload());
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -46,7 +36,7 @@ app.get("/", (request, response) => {
     response.render("index", { title: "Home" })
     response.render("download");
 });
-app.get("/projects", (request, response) => response.render("projects", { title: "Project" }));
+app.get("/projects", (request, response) => response.render("projects", { title: "Projects" }));
 app.get("/about", (request, response) => response.render("about", { title: "About" }));
 app.get("/contact", (request, response) => response.render("contact", { title: "Contact" }));
 

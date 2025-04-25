@@ -1,37 +1,61 @@
-//// This codet will be used for the certificate images on the Home page ////
+//// This code will be used for the certificate images on the Home page ////
 
-const c1 = document.getElementById("c1").addEventListener("click", (event) => {
-    console.log("Image 1");
-});
-const c2 = document.getElementById("c2").addEventListener("click", (event) => {
-    console.log("Image 2");
-});
+const overlay = document.getElementById("lightbox-overlay");
+const lightboxImage = document.getElementById("lightbox-image");
 
-const left_Button = document.getElementById("left-button");
-const right_Button = document.getElementById("right-button");
+const certificateImages = [
+    "images/certificate1.png",
+    "images/certificate2.png"
+];
+let currentImageIndex = 0;
 
-function leftB_Function(event) {
-    if (event.type === "click") {
-        console.log("Left Button clicked!");
-    } else if (event.type === "keydown") {
-        if (event.key === "ArrowLeft") {
-            console.log("Left Arrow pressed!");  
-        }
-    }
+function showImage(index) {
+    currentImageIndex = index;
+    lightboxImage.src = certificateImages[index];
+    overlay.classList.add("active");
 }
 
-left_Button.addEventListener("click", leftB_Function);
-left_Button.addEventListener("keydown", leftB_Function);
+document.getElementById("c1").addEventListener("click", () => showImage(0));
+document.getElementById("c2").addEventListener("click", () => showImage(1));
 
-function rightB_Function(event) {
-    if (event.type === "click") {
-        console.log("Right Button clicked!");
-    } else if (event.type === "keydown") {
-        if (event.key === "ArrowRight") {
-            console.log("Right Arrow pressed!");  
-        }
+// Navigation buttons
+document.getElementById("left-button").addEventListener("click", () => {
+    currentImageIndex = (currentImageIndex - 1 + certificateImages.length) % certificateImages.length;
+    lightboxImage.src = certificateImages[currentImageIndex];
+})
+document.getElementById("right-button").addEventListener("click", () => {
+    currentImageIndex = (currentImageIndex + 1) % certificateImages.length;
+    lightboxImage.src = certificateImages[currentImageIndex];
+})
+
+// Close button
+document.getElementById("close").addEventListener("click", () => {
+    overlay.classList.remove("active");
+})
+
+// ESC key to close
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+        overlay.classList.remove("active");
     }
-}
+})
+
+// clicking outside of box to close
+document.addEventListener("click", (event) => {
+    if (event.c === "Escape") {
+        overlay.classList.remove("active");
+    }
+})
+
+// // Download
+// document.querySelector("a[download]").addEventListener("click", (event) => {
+//     event.preventDefault();
+//     const link = document.createElement("a");
+//     link.href = `certificate${currentImageIndex + 1}.png`;
+//     document.body.appendChild(link);
+//     link.click();
+//     document.body.removeChild(link);
+// })
 
 // plan: make it to where the images visually "scroll" quickly on and off screen when buttons are selected
 // plan: there'll be a new button that adds a download button for the certificate
