@@ -99,7 +99,8 @@ a:hover {
 }
 
 .training-div {
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .training-list {
     text-align: center;
@@ -116,11 +117,11 @@ a:hover {
 }
 
 .images-div {
-    padding-bottom: 16px;
-    padding-top: 32px;
+    gap: 32px;
+    padding: 32px;
 }
-.certificate-img {
-    height: 500px;
+.thumbnail {
+    height: 200px;
     width: auto;
 }
 .img-buttons {
@@ -152,15 +153,19 @@ a:hover {
     border: var(--white), 2px, solid;
 }
 
-.download-button {
-    font-size: var(--header3);
-    color: var(--white);
+.home-download {
+    align-self: center;
     border-radius: 16px;
+}
+.close-button:hover {
+    color: var(--white);
+    border: var(--white), 2px, solid;
 }
 .download-button:hover {
     text-decoration: underline;
     color: var(--white);
 }
+
 .overlay {
     position: fixed;
     top: 0;
@@ -168,23 +173,21 @@ a:hover {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.9);
+    border: var(--blue), 10px, solid;
     display: none;
     justify-content: center;
     align-items: center;
     z-index: 999;
 }
-
 .overlay img {
     max-width: 90%;
     max-height: 90%;
     border: 5px solid var(--white);
     border-radius: 8px;
 }
-
 .overlay.active {
     display: flex;
 }
-
 .lightbox-controls {
     display: flex;
     align-items: center;

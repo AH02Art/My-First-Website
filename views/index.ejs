@@ -2,7 +2,7 @@
 <main>
     <h4 class="flex home-intro">Hello there, this is my first website I built from stratch and below is a summary of my education. Enjoy your stay! :D</h4>
     <div class="flex home-img-div">
-        <img src="images/pictureimage.jpg" id="home-img">
+        <img src="images/pictureimage.jpg" id="home-img" />
     </div>
     <div class="training-div">
         <h3 class="flex">my technical training</h4>
@@ -36,17 +36,21 @@
         <div class="divider"></div>
     </div>
     <div>
+        <h3 class="flex">Here is my Certificate of Completion from my training program. Click on it to take a better look!</h3>
         <div class="flex images-div">
-            <img id="c1" class="certificate-img" src="images/certificate1.png">
-            <img id="c2" class="certificate-img" src="images/certificate2.png">
+            <img id="c1" class="thumbnail" src="images/certificate1.png" />
+            <img id="c2" class="thumbnail" src="images/certificate2.png" />
         </div>
+        <div class="flex">
+            <a href="Certificate.pdf" download="Certificate.pdf" class="nav">Download PDF</a>
+        </div>
+        <!-- found these arrows @ https://www.i2symbol.com/symbols/arrows -->
         <div id="lightbox-overlay" class="overlay">
-            <!-- found these arrows @ https://www.i2symbol.com/symbols/arrows -->
             <div class="lightbox-controls">
+                <button id="close" class="img-buttons close-button">X</button>  
                 <button id="left-button" class="img-buttons navigate-buttons">⇦</button>
-                <img id="lightbox-image" src="" alt="Certificate Preview" />
-                <button id="right-button" class="img-buttons navigate-buttons">⇨</button>                
-                <button id="close" class="img-buttons close-button">X</button>                
+                <img id="lightbox-image" src="" alt="Certificate Preview">
+                <button id="right-button" class="img-buttons navigate-buttons">⇨</button>
                 <a href="Certificate.pdf" download="Certificate.pdf" class="img-buttons close-button">Download PDF</a>
             </div>
         </div>
