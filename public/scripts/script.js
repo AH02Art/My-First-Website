@@ -22,7 +22,7 @@ function closeLightbox() {
 document.getElementById("c1").addEventListener("click", () => showImage(0));
 document.getElementById("c2").addEventListener("click", () => showImage(1));
 
-// Navigation buttons
+// Navigation buttons = currently broken :(
 document.getElementById("left-button").addEventListener("click", () => {
     currentImageIndex = (currentImageIndex - 1 + certificateImages.length) % certificateImages.length;
     lightboxImage.src = certificateImages[currentImageIndex];

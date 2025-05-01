@@ -182,10 +182,10 @@ a:hover {
 /* make the inner box only as big as the image + buttons */
 .lightbox-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 12px;
-    /* no width:100%; */
+    border: 1px solid var(--white);
 }
   
 /* keep controls in one row around the image */
@@ -202,8 +202,6 @@ a:hover {
 .overlay img {
     max-width: 90%;
     max-height: 90%;
-    border: 5px solid var(--white);
-    border-radius: 8px;
 }
 .overlay.active {
     display: flex;
@@ -213,14 +211,11 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 100%;
 }
 
 .lightbox-controls img {
-    max-width: 80%;
-    max-height: 80vh;
-    border: 5px solid var(--white);
-    border-radius: 8px;
+    max-width: 60vw;
+    max-height: 70vh;
 }
 
 .lightbox-actions {
