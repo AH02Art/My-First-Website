@@ -15,6 +15,10 @@ function showImage(index) {
     overlay.classList.add("active");
 }
 
+function closeLightbox() {
+    overlay.classList.remove("active");
+}
+
 document.getElementById("c1").addEventListener("click", () => showImage(0));
 document.getElementById("c2").addEventListener("click", () => showImage(1));
 
@@ -29,24 +33,13 @@ document.getElementById("right-button").addEventListener("click", () => {
 })
 
 // Close button
-document.getElementById("close").addEventListener("click", () => {
-    overlay.classList.remove("active");
-})
+document.getElementById("close").addEventListener("click", closeLightbox)
 
 // ESC key and clicking outside of zoomed image to close
 document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
-        closeLightbox();
-    }
+    if (event.key === "Escape") closeLightbox();
 });
 
 overlay.addEventListener("click", (event) => {
-    // Only close if you clicked *on* the overlay, not inside image/buttons
-    if (event.target === overlay) {
-        closeLightbox();
-    }
+    if (event.target === overlay) closeLightbox();
 });
-function closeLightbox() {
-    const overlay = document.getElementById("lightbox-overlay");
-    overlay.style.display = "none";
-}

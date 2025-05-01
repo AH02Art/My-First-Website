@@ -116,10 +116,6 @@ a:hover {
     padding-right: 16px;
 }
 
-.images-div {
-    gap: 32px;
-    padding: 32px;
-}
 .thumbnail {
     height: 200px;
     width: auto;
@@ -166,18 +162,42 @@ a:hover {
     color: var(--white);
 }
 
-.overlay {
+/* hide overlay by default */
+#lightbox-overlay {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.9);
-    border: var(--blue), 10px, solid;
-    display: none;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background-color: rgba(0,0,0,0.85);
+    display: none;            /* << hide it */
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 9999;
+}
+  
+/* when active, show it */
+#lightbox-overlay.active {
+    display: flex;
+}
+  
+/* make the inner box only as big as the image + buttons */
+.lightbox-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    /* no width:100%; */
+}
+  
+/* keep controls in one row around the image */
+.lightbox-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.lightbox-controls img {
+    max-width: 80vw;
+    max-height: 80vh;
+    border-radius: 8px;
 }
 .overlay img {
     max-width: 90%;
