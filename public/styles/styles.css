@@ -226,6 +226,26 @@ a:hover {
     gap: 12px;
 }
 
+.projects-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 32px;
+    border: 2px, var(--blue), solid;
+    background-color: var(--darkestGrey);
+    border-radius: 16px;
+}
+.project-container {
+    margin: 32px;
+    border: 2px, var(--white), solid;
+    background-color: var(--darkerGrey);
+    border-radius: 16px;
+}
+.projects-thumbnail {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
 .about-container {
     align-items: center;
     gap: 50px;
