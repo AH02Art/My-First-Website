@@ -240,10 +240,11 @@ a:hover {
     background-color: var(--darkerGrey);
     border-radius: 16px;
 }
-.projects-thumbnail {
+.project-thumbnail {
     height: 200px;
     width: 200px;
     margin: auto;
+    object-fit: cover;
 }
 
 .about-container {
