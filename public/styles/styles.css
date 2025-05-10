@@ -248,7 +248,12 @@ a:hover {
     margin: auto;
     object-fit: cover;
     border: 2px, var(--bloomtech), solid;
-    /* border-radius: 12px; */
+}
+.project-text-div {
+    background-color: var(--darkestGrey);
+    border-radius: 8px;
+    margin: 2px;
+    padding: 16px;
 }
 
 .about-container {
@@ -258,17 +263,16 @@ a:hover {
     padding-top: 64px;
     padding-bottom: 64px;
 }
-
 .about-img {
     padding: 64px;
 }
-
 .paragraph-1 {
     word-wrap: break-word;
     border: var(--blue), 2px, solid;
     border-radius: 24px;
     background-color: var(--darkerGrey);
 }
+
 .contact-div {
     padding-bottom: 50px;    
 }
@@ -277,4 +281,7 @@ a:hover {
 }
 .contact-display {
     font-size: var(--header4);
+}
+.bloomtech:hover {
+    text-shadow: 2px 1px var(--black), 0 0 24px var(--bloomtech), 0 0 5px #ffa680;  
 }
