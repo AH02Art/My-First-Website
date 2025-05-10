@@ -9,6 +9,7 @@
     --darkGrey: #333333;
     --darkerGrey: #1a1a1a;
     --darkestGrey: #0d0d0d;
+    --bloomtech: #ff4b00;
     --header1: 64px;
     --header2: 48px;
     --header3: 32px;
@@ -229,24 +230,25 @@ a:hover {
 .projects-div {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 32px;
-    border: 2px, var(--blue), solid;
-    background-color: var(--darkestGrey);
+    margin: 48px;
     border-radius: 16px;
+    border: var(--blue), 2px, solid;
+    box-shadow: -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
+    background-color: var(--darkerGrey);
 }
 .project-container {
-    margin: 32px;
-    border: 2px, var(--white), solid;
-    background-color: var(--darkerGrey);
+    margin: 64px;
+    border: var(--lightGrey), 2px, solid;
+    background-color: var(--darkGrey);
     border-radius: 16px;
 }
 .project-thumbnail {
-    height: 128px;
-    width: 128px;
+    height: 150px;
+    width: 150px;
     margin: auto;
     object-fit: cover;
-    border: 2px, chocolate, solid;
-    border-radius: 100%;
+    border: 2px, var(--bloomtech), solid;
+    /* border-radius: 12px; */
 }
 
 .about-container {
