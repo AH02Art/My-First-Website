@@ -285,21 +285,29 @@ a:hover {
 .fun-grid {
     display: flex;
     flex-direction: column;
-    /* gap: 32px; */
-    margin: 32px;
+    margin: 80px;
+    border: 1px, red, solid;
 }
 .fun-row {
     display: grid;
-    grid-template-columns: max-content 1fr;
-    align-items: start;
+    grid-template-columns: max-content 1fr 1fr;
+    width: 100%;
+    text-align: center;
+}
+.fun-row p, h2 {
     border: 1px, var(--lightGrey), solid;
 }
 .fun-row p {
     font-size: var(--header2);
     text-align: left;
-    padding-right: 256px;
-    border: 1px, var(--lightGrey), solid;
+    padding-right: 300px;
+    padding-left: 300px;
+
 }
+/* .fun-row p, h2 {
+    padding-left: 64px;
+    padding-right: 64px;
+} */
 
 .contact-div {
     padding-bottom: 50px;    
