@@ -282,15 +282,23 @@ a:hover {
     margin: 100px;
     padding: 40px;
 }
-.fun-content {
+.fun-grid {
+    display: flex;
+    flex-direction: column;
+    /* gap: 32px; */
+    margin: 32px;
+}
+.fun-row {
     display: grid;
     grid-template-columns: max-content 1fr;
     align-items: start;
+    border: 1px, var(--lightGrey), solid;
 }
-.fun-content p {
+.fun-row p {
     font-size: var(--header2);
-    text-align: right;
+    text-align: left;
     padding-right: 256px;
+    border: 1px, var(--lightGrey), solid;
 }
 
 .contact-div {
