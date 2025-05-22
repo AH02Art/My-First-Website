@@ -285,22 +285,24 @@ a:hover {
 .fun-grid {
     display: flex;
     flex-direction: column;
-    grid-template-columns: max-content 1fr 1fr;
     margin: 80px;
     border: 1px, var(--lightGrey), solid;
 }
 .fun-row {
-    margin: auto;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px 0;
+    align-items: center;
+    border-bottom: 1px solid var(--lightGrey);
 }
 .fun-label {
     font-size: var(--header2);
     color: var(--white);
-    margin: auto;
+    text-align: right;
+    padding-right: 20px;
 }
-.fun-row {
-    font-size: var(--header2);
-    color: var(--white);
+.fun-value {
     text-align: left;
 }
 
