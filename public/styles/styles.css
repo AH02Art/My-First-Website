@@ -240,9 +240,12 @@ a:hover {
     margin: 48px;
 }
 .project-container {
+    position: relative;
     margin: 64px;
+    padding: 16px;
     border: var(--lightGrey), 2px, solid;
     background-color: var(--darkGrey);
+    overflow: hidden;
 }
 .project-thumbnail {
     height: 150px;
@@ -256,6 +259,8 @@ a:hover {
     border-radius: 8px;
     margin: 2px;
     padding: 16px;
+    z-index: 0;
+    position: relative;
 }
 
 .about-div1 {
