@@ -48,6 +48,10 @@ header a:hover {
     background: linear-gradient(to right, var(--blue) 0%, var(--blue_hover) 100%);
     margin: auto;
 }
+.some-space {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .fancy-box {
     border-radius: 16px;
@@ -106,10 +110,10 @@ a:hover {
     box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
 }
 
-.training-div {
+/* .training-div {
     padding-top: 20px;
     padding-bottom: 40px;
-}
+} */
 .training-list {
     text-align: center;
     padding: 12px;
