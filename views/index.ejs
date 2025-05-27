@@ -44,24 +44,23 @@
         <div class="flex">
             <a href="Certificate.pdf" download="Certificate.pdf" class="nav home-download">Download PDF</a>
         </div>
+        <!-- this code is for the image's overlay -->
         <!-- found these arrows @ https://www.i2symbol.com/symbols/arrows -->
         <div id="lightbox-overlay" class="overlay">
+            <button id="close" class="img-buttons close-button">X</button> 
+
             <div class="lightbox-content lightbox-controls">
-                <div>
-                    <button id="left-button" class="img-buttons navigate-buttons">⇦</button>
-                </div>
-                <div>
+                <button id="left-button" class="img-buttons navigate-buttons">⇦</button>
+
+                <div class="lightbox-image-wrapper">
                     <img id="lightbox-image" src="" alt="Certificate Preview">
+                    <a href="Certificate.pdf" download="Certificate.pdf" class="img-buttons download-button">Download PDF</a>
                 </div>
-                <div>
-                    <button id="right-button" class="img-buttons navigate-buttons">⇨</button>
-                </div>
-                <div>
-                    <button id="close" class="img-buttons close-button">X</button>  
-                </div>
-                <a href="Certificate.pdf" download="Certificate.pdf" class="img-buttons close-button some-space">Download PDF</a>
+
+                <button id="right-button" class="img-buttons navigate-buttons">⇨</button>
             </div>
         </div>
+        <!-- this code is for the image's overlay -->
     </div>
 </main>
 <%- include("layouts/footer") %>

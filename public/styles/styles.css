@@ -177,7 +177,7 @@ a:hover {
     top: 0; left: 0;
     width: 100vw; height: 100vh;
     background-color: rgba(0,0,0,0.85);
-    display: none;            /* << hide it */
+    display: none; /* << hide it */
     justify-content: center;
     align-items: center;
     z-index: 9999;
@@ -187,14 +187,45 @@ a:hover {
 #lightbox-overlay.active {
     display: flex;
 }
+
+#close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 10000;
+}
   
 /* make the inner box only as big as the image + buttons */
 .lightbox-content {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 12px;
     border: 1px solid var(--white);
+}
+
+.lightbox-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lightbox-image-wrapper img {
+    max-width: 60vw;
+    max-height: 70vh;
+    border-radius: 8px;
+}
+.download-button {
+    margin-top: 12px;
+    border-radius: 12px;
+    background-color: var(--darkerGrey);
+    color: var(--blue);
+    padding: 8px 16px;
+    border: 2px solid var(--blue);
+    text-align: center;
+}
+.download-button:hover {
+    color: var(--blue_hover);
+    border-color: var(--blue_hover);
+    text-decoration: underline;
 }
   
 /* keep controls in one row around the image */
