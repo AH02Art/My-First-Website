@@ -1,3 +1,5 @@
+/* <<<<<<<<<<<<<<<<<<<<<<<<< Globally Used Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
+
 :root {
     --white: #ffffff;
     --black: #000000;
@@ -18,7 +20,6 @@
     --header6: 8px;
     --shadow: 2px 2px var(--black), 0 0 40px var(--blue_hover), 0 0 10px var(--blue);
 }
-
 /* look at these pretty purple colors!! #bf00ff; and #aa00ff; */
 
 body {
@@ -87,6 +88,8 @@ a:hover {
     text-decoration: none;
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<< Header/Footer Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
+
 .header-border {
     border-bottom: 1px solid var(--lightGrey);
 }
@@ -96,13 +99,16 @@ a:hover {
     padding-bottom: 100px;
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<< Home Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 .home-intro {
     padding-top: 10px;
 }
+
 .home-img-div {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 #home-img {
     height: 300px;
     width: auto;
@@ -129,6 +135,9 @@ a:hover {
     width: auto;
     margin: 32px;
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<< Certificates Blow-up Styles (WIP) >>>>>>>>>>>>>>>>>>>>>>>>>  */
+
 .img-buttons {
     color: var(--blue);
     padding-bottom: 8px;
@@ -262,6 +271,8 @@ a:hover {
     display: flex;
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<< Projects Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
+
 .projects-div {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -290,6 +301,8 @@ a:hover {
     z-index: 0;
     position: relative;
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<< About Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 
 .about-div1 {
     overflow: hidden;
@@ -338,6 +351,8 @@ a:hover {
 .fun-value {
     text-align: left;
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<< Contact Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 
 .contact-div {
     padding-bottom: 50px;    
