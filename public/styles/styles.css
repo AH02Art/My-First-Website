@@ -166,9 +166,6 @@ a:hover {
     color: var(--white);
     border: var(--white), 2px, solid;
 }
-.download-button:hover {
-    color: var(--white);
-}
 
 /* hide overlay by default */
 #lightbox-overlay {
@@ -214,6 +211,7 @@ a:hover {
     border-radius: 8px;
 }
 .download-button {
+    font-size: var(--header3);
     margin-top: 12px;
     border-radius: 12px;
     background-color: var(--darkerGrey);
@@ -222,11 +220,10 @@ a:hover {
     border: 2px solid var(--blue);
     text-align: center;
 }
-/* .download-button:hover {
+.download-button:hover {
     color: var(--blue_hover);
     border-color: var(--blue_hover);
-    text-decoration: underline;
-} */
+}
   
 /* keep controls in one row around the image */
 .lightbox-controls {
