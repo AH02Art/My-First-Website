@@ -53,6 +53,9 @@ header a:hover {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+p {
+    word-wrap: break-word;
+}
 
 .fancy-box {
     border-radius: 16px;
@@ -157,7 +160,6 @@ a:hover {
 .navigate-buttons {
     font-size: var(--header1);
     border-radius: 25%;
-    border: 1px yellow, solid;
 }
 .close-button {
     font-size: var(--header3); 
@@ -205,7 +207,7 @@ a:hover {
 .lightbox-content {
     display: flex;
     align-items: center;
-    border: 1px solid var(--white);
+    border: 1px solid var(--lightGrey);
 }
 
 .lightbox-image-wrapper {
@@ -213,7 +215,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px yellow, solid;
 }
 
 .lightbox-image-wrapper img {
@@ -288,7 +289,13 @@ a:hover {
     background-color: var(--darkGrey);
     overflow: hidden;
 }
+.project-container p {
+    font-size: var(--header5);
+}
 .project-container a {
+    font-size: var(--header4);
+    padding-top: 4px;
+    padding-bottom: 4px;
     transition: .25s;
 }
 .project-container a:hover {
@@ -299,12 +306,11 @@ a:hover {
     width: 150px;
     margin: auto;
     object-fit: cover;
-    border: 2px, var(--bloomtech), solid;
+    border: 4px, var(--bloomtech), solid;
 }
 .project-text-div {
     background-color: var(--darkestGrey);
     border-radius: 8px;
-    margin: 2px;
     padding: 16px;
     z-index: 0;
     position: relative;
@@ -326,7 +332,6 @@ a:hover {
 .about-div1 p {
     font-size: var(--header3);
     margin: 64px;
-    word-wrap: break-word;
     border-radius: 24px;
 }
 .fun-facts {
