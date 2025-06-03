@@ -288,6 +288,12 @@ a:hover {
     background-color: var(--darkGrey);
     overflow: hidden;
 }
+.project-container a {
+    transition: .25s;
+}
+.project-container a:hover {
+    transform: scale(1.5);
+}
 .project-thumbnail {
     height: 150px;
     width: 150px;
