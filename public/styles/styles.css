@@ -308,13 +308,6 @@ a:hover {
     object-fit: cover;
     border: 4px, var(--bloomtech), solid;
 }
-.project-text-div {
-    background-color: var(--darkestGrey);
-    border-radius: 8px;
-    padding: 16px;
-    z-index: 0;
-    position: relative;
-}
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< About Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 
