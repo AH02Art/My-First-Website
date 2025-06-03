@@ -299,7 +299,7 @@ a:hover {
     transition: .25s;
 }
 .project-container a:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 .project-thumbnail {
     height: 150px;
