@@ -54,9 +54,9 @@ footer p {
     background: linear-gradient(to right, var(--blue) 0%, var(--blue_hover) 100%);
     margin: auto;
 }
-.some-space {
-    padding-top: 16px;
-    padding-bottom: 16px;
+.divider-space {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 p {
     word-wrap: break-word;
