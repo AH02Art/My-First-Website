@@ -38,6 +38,11 @@ header a {
 header a:hover {
     transform: scale(1.5);
 }
+footer p {
+    font-size: var(--header5);
+    color: var(--lightGrey);
+    margin: 4px;
+}
 
 .flex {
     display: flex;
