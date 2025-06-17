@@ -129,17 +129,23 @@ a:hover {
 .skills-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    border: red, 1px, solid;
     width: 90%;
     margin: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 64px;
 }
 .skills-container div {
-    border: 1px solid black;
     padding: 10px;
-    font-size: 30px;
-    text-align: center;
+    margin: auto;
+}
+
+.skills-img {
+    max-width: 200px;
+    height: auto;
+    transition: 1.0s;
+}
+
+.skills-img:hover {
+    transform: scale(1.25);
 }
 
 .training-list {

@@ -1,4 +1,4 @@
-//// This code will be used for the certificate images on the Home page ////
+//// Certificate images on the Home page ////
 
 const overlay = document.getElementById("lightbox-overlay");
 const lightboxImage = document.getElementById("lightbox-image");
@@ -43,3 +43,5 @@ document.addEventListener("keydown", (event) => {
 overlay.addEventListener("click", (event) => {
     if (event.target === overlay) closeLightbox();
 });
+
+//// Projects images when you click on them ////
