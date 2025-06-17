@@ -124,6 +124,24 @@ a:hover {
     box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<< Home Page (skills section) >>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+.skills-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: red, 1px, solid;
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.skills-container div {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
 .training-list {
     text-align: center;
     padding: 12px;
