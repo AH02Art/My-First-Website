@@ -83,7 +83,7 @@ a:hover {
 }
 .nav {
     text-align: center;
-    font-size: 32px;
+    font-size: var(--header4);
 }
 .nav li {
     display: inline;
