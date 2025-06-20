@@ -12,12 +12,12 @@
     --darkerGrey: #1a1a1a;
     --darkestGrey: #0d0d0d;
     --bloomtech: #ff4b00;
-    --header1: 64px;
-    --header2: 48px;
-    --header3: 32px;
-    --header4: 24px;
-    --header5: 16px;
-    --header6: 8px;
+    --header1: clamp(2rem, 5vw, 4rem);    /* ~32px to ~64px */
+    --header2: clamp(1.5rem, 4vw, 3rem);  /* ~24px to ~48px */
+    --header3: clamp(1.25rem, 3vw, 2rem); /* ~20px to ~32px */
+    --header4: clamp(1rem, 2.5vw, 1.5rem);/* ~16px to ~24px */
+    --header5: clamp(0.875rem, 2vw, 1rem);/* ~14px to ~16px */
+    --header6: clamp(0.5rem, 1.5vw, 0.5rem);/* fixed, may stay ~8px */
     --shadow: 2px 2px var(--black), 0 0 40px var(--blue_hover), 0 0 10px var(--blue);
 }
 /* look at these pretty purple colors!! #bf00ff; and #aa00ff; */
