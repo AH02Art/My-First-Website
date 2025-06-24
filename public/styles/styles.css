@@ -168,9 +168,25 @@ a:hover {
     background-color: var(--darkerGrey);
     border: var(--blue_hover), 2px, solid;
 }
+#left-button, #right-button {
+    position: absolute;
+    top: 50%;                /* Center vertically */
+    transform: translateY(-50%);
+    font-size: var(--header1);
+    z-index: 10;
+}
+#left-button {
+    left: clamp(0.5rem, 0.75rem, 1rem);
+}
+#right-button {
+    right: clamp(0.5rem, 0.75rem, 1rem);
+}
+
 .navigate-buttons {
+    position: absolute;
     font-size: var(--header1);
     border-radius: 25%;
+    z-index: 10;
 }
 .close-button {
     font-size: var(--header3);
@@ -246,39 +262,8 @@ a:hover {
     color: var(--blue_hover);
     border-color: var(--blue_hover);
 }
-  
-/* keep controls in one row around the image */
-.lightbox-controls {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.lightbox-controls img {
-    max-width: 80vw;
-    max-height: 80vh;
-    border-radius: 8px;
-}
-.lightbox-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-.lightbox-controls img {
-    max-width: 60vw;
-    max-height: 70vh;
-}
-.lightbox-actions {
-    position: absolute;
-    top: 20px;
-    right: 40px;
-    display: flex;
-    gap: 12px;
-}
-
 .overlay img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 90vw; height: 90vh;
 }
 .overlay.active {
     display: flex;
