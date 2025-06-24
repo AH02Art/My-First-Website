@@ -129,12 +129,12 @@ a:hover {
 .skills-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    width:  clamp(30vw, 90vw, 90vw);
+    width: clamp(30vw, 90vw, 90vw);
     margin: auto;
     padding: clamp(1rem, 4rem, 8rem);
 }
 .skills-container div {
-    padding: 10px;
+    padding: 1vw;
     margin: auto;
 }
 
@@ -181,8 +181,8 @@ a:hover {
 }
 
 .home-download {
-    align-self: center;
-    border-radius: 16px;
+    font-size: var(--header3);
+    margin-bottom: 8px;
 }
 .close-button:hover {
     color: var(--white);
