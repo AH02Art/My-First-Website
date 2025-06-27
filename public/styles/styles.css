@@ -118,7 +118,8 @@ a:hover {
 }
 
 #home-img {
-    height: 300px;
+    width: clamp(5rem, 10rem, 18.75rem);
+    height: auto;
     width: auto;
     border-radius: 100%;
     box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
