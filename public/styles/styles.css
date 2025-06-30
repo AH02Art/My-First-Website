@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 }
 
 header {
-    border-bottom: var(--lightGrey), 1px, solid;
+    border-bottom: var(--lightGrey) 1px solid;
 }
 header a {
     transition: .25s;
@@ -55,8 +55,8 @@ footer p {
     margin: auto;
 }
 .divider-space {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: clamp(0.5rem, 1rem, 8rem);
+    margin-bottom: clamp(0.5rem, 1rem, 8rem);
 }
 p {
     word-wrap: break-word;
@@ -154,7 +154,7 @@ a:hover {
 .img-buttons {
     color: var(--blue);
     background-color: var(--darkerGrey);
-    border: var(--blue), 2px, solid;
+    border: var(--blue) 2px solid;
     padding-left: clamp(0.5rem, 1rem, 1rem);
     padding-right: clamp(0.5rem, 1rem, 1rem);
     padding-bottom: clamp(0.25rem, 0.5rem, 0.5rem);
@@ -162,7 +162,7 @@ a:hover {
 .img-buttons:hover {
     color: var(--blue_hover);
     background-color: var(--darkerGrey);
-    border: var(--blue_hover), 2px, solid;
+    border: var(--blue_hover) 2px solid;
 }
 #left-button, #right-button {
     position: absolute;
@@ -264,16 +264,22 @@ a:hover {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Projects Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 
+.projects-divider {
+    height: 2px;
+    background: linear-gradient(to right, var(--blue) 0%, var(--blue_hover) 100%);
+    margin: auto;
+}
+
 .projects-div {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 48px;
+    margin: clamp(1rem, 4rem, 8rem);
 }
 .project-container {
     position: relative;
-    margin: 64px;
-    padding: 16px;
-    border: var(--lightGrey), 2px, solid;
+    margin: clamp(1rem, 4rem, 8rem);
+    padding: clamp(0.25rem, 2rem, 4rem);
+    border: var(--lightGrey) 2px solid;
     background-color: var(--darkGrey);
     overflow: hidden;
 }
@@ -282,19 +288,18 @@ a:hover {
 }
 .project-container a {
     font-size: var(--header4);
-    padding-top: 4px;
-    padding-bottom: 4px;
     transition: .25s;
 }
 .project-container a:hover {
     transform: scale(1.25);
 }
 .project-thumbnail {
-    height: 150px;
-    width: 150px;
+    display: block;
+    width: clamp(4rem, 9.375rem, 18.75rem);
+    aspect-ratio: 1 / 1;
     margin: auto;
     object-fit: cover;
-    border: 4px, var(--bloomtech), solid;
+    border: clamp(1px, 4px, 1rem) var(--bloomtech) solid;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< About Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
@@ -326,7 +331,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin: 80px;
-    border: 1px, var(--lightGrey), solid;
+    border: 1px var(--lightGrey) solid;
 }
 .fun-row {
     display: grid;

@@ -1,6 +1,6 @@
 //// Certificate images on the Home page ////
 
-const overlay = document.getElementById("lightbox-overlay");
+const homeOverlay = document.getElementById("lightbox-overlay");
 const lightboxImage = document.getElementById("lightbox-image");
 
 const certificateImages = [
@@ -12,11 +12,11 @@ let currentImageIndex = 0;
 function showImage(index) {
     currentImageIndex = index;
     lightboxImage.src = certificateImages[index];
-    overlay.classList.add("active");
+    homeOverlay.classList.add("active");
 }
 
 function closeLightbox() {
-    overlay.classList.remove("active");
+    homeOverlay.classList.remove("active");
 }
 
 document.getElementById("c1").addEventListener("click", () => showImage(0));
@@ -40,8 +40,10 @@ document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeLightbox();
 });
 
-overlay.addEventListener("click", (event) => {
-    if (event.target === overlay) closeLightbox();
+homeOverlay.addEventListener("click", (event) => {
+    if (event.target === homeOverlay) closeLightbox();
 });
 
 //// Projects images when you click on them ////
+
+const projectsOverlay = document.getElementById("projects-overlay");
