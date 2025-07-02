@@ -362,7 +362,7 @@ a:hover {
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Contact Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 
 .contact-div {
-    padding-bottom: 50px;    
+    padding-bottom: clamp(0.25rem, 2rem, 4rem);  
 }
 .contact-space {
     gap: 8px;
