@@ -116,6 +116,15 @@ a:hover {
     width: clamp(10rem, 25rem, 30rem);
     height: auto;
     border-radius: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+}
+#home-img:hover {
+    filter: grayscale(0%);
+}
+
+.img-border {
+    border-radius: 100%;
     box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
 }
 .home-img-container {
