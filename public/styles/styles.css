@@ -271,7 +271,6 @@ a:hover {
     height: 2px;
     width: 100%; /* Or clamp(4rem, 80%, 100%) for responsiveness */
     background: linear-gradient(to right, var(--blue) 0%, var(--blue_hover) 100%);
-    margin: clamp(0.5rem, 1vw, 1rem) 0;
 }
 
 .projects-div {
@@ -281,15 +280,9 @@ a:hover {
 }
 .project-container {
     position: relative;
-    padding: clamp(0.25rem, 2rem, 4rem);
-    border: var(--lightGrey) 2px solid;
-    background-color: var(--darkGrey);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: clamp(0.5rem, 1vw, 1.5rem); /* clean vertical spacing */
+    margin: clamp(1rem, 2vw, 2.5rem);
+    padding: clamp(0.25rem, 1.5vw, 4rem);
+    border: var(--blue_hover) 1px dotted;
 }
 .project-container p {
     font-size: clamp(0.25rem, 1rem, 2rem);
@@ -302,12 +295,10 @@ a:hover {
     transform: scale(1.25);
 }
 .project-thumbnail {
-    display: block;
-    width: clamp(8rem, 9.375rem, 18.75rem);
-    aspect-ratio: 1 / 1;
+    width: clamp(8rem, 20rem, 18.75rem);
     margin: auto;
     object-fit: cover;
-    border: clamp(1px, 4px, 1rem) var(--bloomtech) solid;
+    border: clamp(1px, 3px, 1rem) var(--bloomtech) solid;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< About Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
@@ -365,7 +356,7 @@ a:hover {
     padding-bottom: clamp(0.25rem, 2rem, 4rem);  
 }
 .contact-space {
-    gap: 8px;
+    gap: clamp(0.125rem, 0.25rem, 1rem);;
 }
 .contact-display {
     font-size: var(--header4);
