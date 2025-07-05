@@ -117,6 +117,7 @@ a:hover {
     height: auto;
     border-radius: 100%;
     filter: grayscale(100%);
+    object-fit: cover;
     transition: filter 0.5s ease-in-out;
 }
 #home-img:hover {
@@ -124,8 +125,12 @@ a:hover {
 }
 
 .img-border {
+    float: left;
     border-radius: 100%;
     box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
+    margin-left: clamp(2rem, 3.75rem, 6rem);
+    margin-right: clamp(2rem, 3.75rem, 6rem);
+    overflow: hidden;
 }
 .home-img-container {
     padding-top: clamp(1rem, 4rem, 8rem);
@@ -335,7 +340,6 @@ a:hover {
 .fun-grid {
     display: flex;
     flex-direction: column;
-    margin: clamp(2rem, 5rem, 6rem);
     border: 1px var(--lightGrey) solid;
 }
 .fun-row {
@@ -348,14 +352,14 @@ a:hover {
 }
 .fun-row div {
     text-align: right;
-    font-size: clamp(0.25rem, 3vw, 8rem);
+    font-size: clamp(0.25rem, 2.5vw, 6rem);
     color: var(--white);
 
     padding-right: clamp(0.5rem, 1.25rem, 3rem);
 }
 .fun-row h4 {
     text-align: left;
-    font-size: clamp(0.25rem, 3vw, 8rem);
+    font-size: clamp(0.25rem, 2.5vw, 6rem);
     color: var(--white); text-shadow: var(--shadow);
 
 }
@@ -371,6 +375,23 @@ a:hover {
 .contact-display {
     font-size: var(--header4);
 }
-.bloomtech:hover {
-    text-shadow: 2px 1px var(--black), 0 0 24px var(--bloomtech), 0 0 5px #ffa680;  
+
+.contact-grid {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    padding: clamp(0.6rem, 0.625rem, 1rem) 0;
+    align-items: center;
+}
+.fun-row div {
+    text-align: right;
+    font-size: clamp(0.25rem, 2.5vw, 6rem);
+    color: var(--white);
+
+    padding-right: clamp(0.5rem, 1.25rem, 3rem);
+}
+.fun-row h4 {
+    text-align: left;
+    font-size: clamp(0.25rem, 2.5vw, 6rem);
+    color: var(--white); text-shadow: var(--shadow);
+
 }
