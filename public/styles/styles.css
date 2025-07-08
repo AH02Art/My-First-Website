@@ -125,12 +125,8 @@ a:hover {
 }
 
 .img-border {
-    float: left;
     border-radius: 100%;
     box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
-    margin-left: clamp(2rem, 3.75rem, 6rem);
-    margin-right: clamp(2rem, 3.75rem, 6rem);
-    overflow: hidden;
 }
 .home-img-container {
     padding-top: clamp(1rem, 4rem, 8rem);
