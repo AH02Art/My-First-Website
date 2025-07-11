@@ -108,7 +108,7 @@ footer p {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Home Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 #home-img {
-    width: clamp(10rem, 25rem, 30rem);
+    width: clamp(8rem, 15rem, 30rem);
     height: auto;
     border-radius: 100%;
     filter: grayscale(100%);
@@ -134,8 +134,8 @@ footer p {
     display: grid;
     grid-template-columns: auto auto auto auto;
     width: clamp(30vw, 90vw, 90vw);
-    margin: auto;
-    padding: clamp(1rem, 4rem, 8rem);
+    margin: clamp(1rem, 2rem, 4rem);
+    padding: clamp(1rem, 2rem, 4rem);
 }
 .skills-container div {
     padding: 1vw;
@@ -270,30 +270,57 @@ footer p {
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< About Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
-.about-intro {
-    display: flex;
-    flex-wrap: wrap;
-    gap: clamp(1rem, 3rem, 5rem);
-    align-items: flex-start;
+/* Outer box */
+.about-section {
+  margin: clamp(2rem, 6.25rem, 10rem);
+  padding: clamp(1rem, 2.5rem, 5rem);
+  overflow: hidden;
 }
 
-.img-wrapper {
-    flex-shrink: 0;
-    margin-bottom: 1rem;
+/* Image + first paragraph wrapper */
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: clamp(1rem, 3rem, 5rem);
+  margin-bottom: clamp(1rem, 2rem, 3rem);
 }
 
-.text-wrapper {
-    flex: 1 1 400px;
+/* Image container with nice border */
+.img-border {
+  border-radius: 100%;
+  box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
+  overflow: hidden;
+  flex-shrink: 0;
 }
-.about-div1 {
-    overflow: hidden;
-    margin: clamp(2rem, 6.25rem, 10rem);
-    padding: clamp(1rem, 2.5rem, 5rem);
+.about-img-container {
+    margin: clamp(0.5rem, 1rem, 2rem);
 }
-.about-div1 p {
-    font-size: var(--header3);
-    margin: clamp(0.5rem, 4rem, 8rem);
-    border-radius: 24px;
+
+/* The image itself */
+#home-img {
+  width: clamp(10rem, 25vw, 30rem);
+  height: auto;
+  border-radius: 100%;
+  filter: grayscale(100%);
+  object-fit: cover;
+  transition: filter 0.5s ease-in-out;
+}
+#home-img:hover {
+  filter: grayscale(0%);
+}
+
+/* Paragraph styles */
+.about-p {
+  flex: 1 1 400px;
+  font-size: var(--header3);
+  margin: 0;
+  border-radius: 24px;
+}
+
+/* Second paragraph container */
+.about-extra {
+  margin-top: clamp(1rem, 3rem, 5rem);
 }
 .fun-container {
     margin: clamp(2rem, 6.25rem, 10rem);
