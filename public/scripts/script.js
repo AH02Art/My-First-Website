@@ -5,6 +5,7 @@ const overlayImage = document.getElementById("overlay-image");
 const closeButton = document.getElementById("close");
 const leftButton = document.getElementById("left-button");
 const rightButton = document.getElementById("right-button");
+const downloadButton = document.getElementById("download");
 
 const imageGroups = {
     certificate: [
@@ -31,6 +32,12 @@ function showOverlay(group, index) {
     currentIndex = index;
     overlayImage.src = imageGroups[group][index];
     imageOverlay.classList.add("active");
+
+    if (group === "certificate") {
+        downloadButton.style.display = "inline-block";
+    } else {
+        downloadButton.style.display = "none";
+    }
 }
 
 function closeOverlay() {
