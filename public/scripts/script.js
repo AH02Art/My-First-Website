@@ -1,49 +1,64 @@
-//// Certificate images on the Home page ////
+//// Image Pop-up functionality for both the Home & Projects Pages ////
 
-const homeOverlay = document.getElementById("lightbox-overlay");
-const lightboxImage = document.getElementById("lightbox-image");
+const imageOverlay = document.getElementById("image-overlay");
+const overlayImage = document.getElementById("overlay-image");
+const closeButton = document.getElementById("close");
+const leftButton = document.getElementById("left-button");
+const rightButton = document.getElementById("right-button");
 
-const certificateImages = [
-    "images/certificate1.png",
-    "images/certificate2.png"
-];
-let currentImageIndex = 0;
+const imageGroups = {
+    certificate: [
+        "images/certificate1.png",
+        "images/certificate2.png"
+    ],
+    projects: [
+        "images/learnercards.jpg",
+        "images/starwarscharacters.jpg",
+        "images/thegrid.jpg",
+        "images/pizzaapp.jpg",
+        "images/articlesapp.jpg",
+        "images/projects.jpg",
+        "images/landing.jpg",
+        "images/asylumgraphspage.jpg",
+        "images/asylumprofilepage.jpg"
+    ]
+};
+let currentGroup = "";
+let currentIndex = 0;
 
-function showImage(index) {
-    currentImageIndex = index;
-    lightboxImage.src = certificateImages[index];
-    homeOverlay.classList.add("active");
+function showOverlay(group, index) {
+    currentGroup = group;
+    currentIndex = index;
+    overlayImage.src = imageGroups[group][index];
+    imageOverlay.classList.add("active");
 }
 
-function closeLightbox() {
-    homeOverlay.classList.remove("active");
+function closeOverlay() {
+    imageOverlay.classList.remove("active");
 }
 
-document.getElementById("c1").addEventListener("click", () => showImage(0));
-document.getElementById("c2").addEventListener("click", () => showImage(1));
+function showNextImage(step) {
+    const groupArray = imageGroups[currentGroup];
+    currentIndex = (currentIndex + step + groupArray.length) % groupArray.length;
+    overlayImage.src = groupArray[currentIndex];
+}
 
-// Navigation buttons = currently broken :(
-document.getElementById("left-button").addEventListener("click", () => {
-    currentImageIndex = (currentImageIndex - 1 + certificateImages.length) % certificateImages.length;
-    lightboxImage.src = certificateImages[currentImageIndex];
+document.querySelectorAll("[data-group]").forEach((img) => {
+    img.addEventListener("click", () => {
+        const group = img.getAttribute("data-group");
+        const index = parseInt(img.getAttribute("data-index"));
+        showOverlay(group, index);
+    });
 })
-document.getElementById("right-button").addEventListener("click", () => {
-    currentImageIndex = (currentImageIndex + 1) % certificateImages.length;
-    lightboxImage.src = certificateImages[currentImageIndex];
-})
-
-// Close button
-document.getElementById("close").addEventListener("click", closeLightbox)
+leftButton.addEventListener("click", () => showNextImage(-1));
+rightButton.addEventListener("click", () => showNextImage(1));
+closeButton.addEventListener("click", closeOverlay);
 
 // ESC key and clicking outside of zoomed image to close
 document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeLightbox();
+    if (event.key === "Escape") closeOverlay();
 });
 
-homeOverlay.addEventListener("click", (event) => {
-    if (event.target === homeOverlay) closeLightbox();
+imageOverlay.addEventListener("click", (event) => {
+    if (event.target === imageOverlay) closeOverlay();
 });
-
-//// Projects images when you click on them ////
-
-const projectsOverlay = document.getElementById("projects-overlay");

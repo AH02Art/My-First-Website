@@ -209,7 +209,7 @@ footer p {
 }
 
 /* hide overlay by default */
-#lightbox-overlay {
+#image-overlay {
     position: fixed;
     top: 0; left: 0;
     width: 100vw; height: 100vh;
@@ -221,7 +221,7 @@ footer p {
 }
   
 /* when active, show it */
-#lightbox-overlay.active {
+#image-overlay.active {
     display: flex;
 }
 
@@ -233,24 +233,24 @@ footer p {
 }
   
 /* make the inner box only as big as the image + buttons */
-.lightbox-content {
+.overlay-content {
     display: flex;
     align-items: center;
     border: 1px solid var(--blue);
     background-color: var(--black);
 }
 
-.lightbox-image-wrapper {
+.overlay-image-wrapper {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.lightbox-image-wrapper img {
+.overlay-image-wrapper img {
     max-width: 80vw;
-    max-height: 90vh;
-    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
 }
 
 .download-button {

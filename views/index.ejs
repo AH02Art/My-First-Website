@@ -44,26 +44,12 @@
     <div>
         <h3 class="flex">Here is my Certificate of Completion from my training program. Click on it to take a better look!</h3>
         <div class="flex images-div">
-            <img id="c1" class="thumbnail" src="images/certificate1.png" />
-            <img id="c2" class="thumbnail" src="images/certificate2.png" />
+            <img id="c1" data-group="certificate" data-index="0" class="thumbnail" src="images/certificate1.png" />
+            <img id="c2" data-group="certificate" data-index="1" class="thumbnail" src="images/certificate2.png" />
         </div>
         <div class="flex">
             <a href="Certificate.pdf" download="Certificate.pdf" class="nav home-download">Download PDF</a>
         </div>
-        <!-- this code is for the image's overlay -->
-        <!-- found these arrows @ https://www.i2symbol.com/symbols/arrows -->
-        <div id="lightbox-overlay" class="overlay">
-            <div class="lightbox-content">
-                <button id="left-button" class="img-buttons navigate-buttons">⇦</button>
-                <div class="lightbox-image-wrapper">
-                    <img id="lightbox-image" src="" alt="Certificate Preview">
-                    <a href="Certificate.pdf" download="Certificate.pdf" class="img-buttons download-button">Download PDF</a>
-                </div>
-                <button id="right-button" class="img-buttons navigate-buttons">⇨</button>
-                <button id="close" class="img-buttons close-button">x</button>
-            </div>
-        </div>
-        <!-- this code is for the image's overlay -->
     </div>
 </main>
 <%- include("layouts/footer") %>
