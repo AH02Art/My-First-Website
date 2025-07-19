@@ -108,7 +108,7 @@ footer p {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Home Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 #home-img {
-    width: clamp(20rem, 25rem, 40rem);
+    width: clamp(8rem, 15vw, 30rem);
     border-radius: 100%;
     filter: grayscale(100%);
     object-fit: cover;
@@ -126,8 +126,8 @@ footer p {
     align-items: center;
 }
 .home-img-container {
-    padding-top: clamp(1rem, 4rem, 8rem);
-    padding-bottom: clamp(1rem, 4rem, 8rem);
+    padding-top: clamp(1rem, 2rem, 4rem);
+    padding-bottom: clamp(1rem, 2rem, 4rem);
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Home Page (skills section) >>>>>>>>>>>>>>>>>>>>>>>>>  */
