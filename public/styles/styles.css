@@ -344,10 +344,11 @@ footer p {
     padding: clamp(0.25rem, 3vw, 4rem);
     border: var(--blue_hover) 1px dotted;
 }
-.project-container p, a {
-    font-size: var(--header4);
+.project-container p {
+    font-size: var(--header5);
 }
 .project-container a {
+    font-size: var(--header4);
     transition: .25s;
 }
 .project-container a:hover {
