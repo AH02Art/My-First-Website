@@ -108,7 +108,7 @@ footer p {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Home Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 #home-img {
-    width: clamp(8rem, 15vw, 30rem);
+    width: clamp(8rem, 5vw, 16rem);
     border-radius: 100%;
     filter: grayscale(100%);
     object-fit: cover;
@@ -328,6 +328,10 @@ footer p {
     margin: clamp(2rem, 6.25rem, 10rem);
     padding: clamp(1.25rem, 2.5rem, 8rem);
 }
+.fun-space {
+    padding-top: clamp(0.875rem, 2vw, 1rem);
+    padding-bottom: clamp(1.5rem, 4vw, 3rem);
+}
 .fun-grid {
     display: flex;
     flex-direction: column;
@@ -431,7 +435,7 @@ footer p {
     text-shadow: var(--shadow);   
 }
 .contact-row button:hover {
-    text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
+    text-decoration: underline;  
 }
 
 .hidden {

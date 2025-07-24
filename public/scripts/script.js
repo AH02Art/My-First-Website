@@ -72,16 +72,16 @@ imageOverlay.addEventListener("click", (event) => {
 
 //// email link copying feature ////
 
-document.getElementById("email-text").addEventListener("click", function () {
+document.getElementById("copy-email").addEventListener("click", function() {
     const email = this.textContent.trim();
-    navigator.clipboard.writeText(email).then(() => {
-        const status = document.getElementById("copy-status");
-        status.classList.remove("hidden");
-        setTimeout(() => {
-            status.classList.add("hidden");
-        }, 2000);
-    }).catch(err => {
-        alert("Failed to copy email.");
-        console.error(err);
-    });
+    console.log("1", email);
+    navigator.clipboard.writeText(email)
+        .then(() => {
+            console.log("2", email);
+            console.log("Email copied to clipboard!");
+        })
+        .catch((error) => {
+            console.log("3", email);
+            console.error("Failed to copy email: ", error);
+        })
 });
