@@ -42,8 +42,8 @@ body::-webkit-scrollbar {
     width: 100%; /* Makes sure divider isn't squished in flex */
     display: flex;
     justify-content: center; /* optional if divider is smaller than 100% */
-    margin-top: clamp(0.5rem, 4vw, 8rem);
-    margin-bottom: clamp(0.5rem, 4vw, 8rem);
+    margin-top: clamp(1rem, 2vw, 4rem);
+    margin-bottom: clamp(1rem, 2vw, 4rem);
 }
 p {
     word-wrap: break-word;
@@ -86,7 +86,7 @@ a:hover {
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Header/Footer Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 .header-border {
     border-bottom: 1px solid var(--lightGrey);
-    margin-bottom: clamp(0.5rem, 2.5vw, 4rem);
+    margin-bottom: clamp(0.25rem, 1vw, 1rem);
 }
 .footer-border {
     border-top: 1px solid var(--lightGrey);
@@ -222,19 +222,16 @@ footer p {
     align-items: center;
     z-index: 9999;
 }
-  
 /* when active, show it */
 #image-overlay.active {
     display: flex;
 }
-
 #close {
     position: absolute;
     top: clamp(0.5rem, 1vw, 1rem);
     right: clamp(0.5rem, 1vw, 1rem);
     z-index: 10;
 }
-  
 /* make the inner box only as big as the image + buttons */
 .overlay-content {
     display: flex;
@@ -242,20 +239,17 @@ footer p {
     border: 1px solid var(--blue);
     background-color: var(--black);
 }
-
 .overlay-image-wrapper {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .overlay-image-wrapper img {
     max-width: 85vw;
     max-height: 85vh;
     object-fit: contain;
 }
-
 .download-button {
     font-size: var(--header3);
     border-radius: 12px;
@@ -273,14 +267,11 @@ footer p {
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< About Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
-/* Outer box */
 .about-section {
     margin: clamp(2rem, 8vw, 10rem);
     padding: clamp(1rem, 5vw, 5rem);
     overflow: hidden;
 }
-
-/* Image + first paragraph wrapper */
 .about-flex {
     display: flex;
     flex-wrap: wrap;
@@ -288,23 +279,19 @@ footer p {
     gap: clamp(1rem, 6vw, 5rem);
     margin-bottom: clamp(1rem, 4vw, 3rem);
 }
-
 .about-img-container {
     margin: clamp(0.5rem, 2vw, 2rem);
 }
-
-/* Paragraph styles */
 .about-p {
     flex: 1 1 400px;
     font-size: var(--header3);
     margin: 0;
     border-radius: 24px;
 }
-
-/* Second paragraph container */
 .about-extra {
     margin-top: clamp(1rem, 6vw, 5rem);
 }
+
 .fun-container {
     margin: clamp(2rem, 8vw, 10rem);
     padding: clamp(1.25rem, 5vw, 8rem);
@@ -344,8 +331,6 @@ footer p {
     height: 2px;
     width: 100%;
     background: linear-gradient(to right, var(--blue) 0%, var(--blue_hover) 100%);
-    margin-top: clamp(1rem, 1vw, 4rem);
-    margin-bottom: clamp(1rem, 1vw, 4rem);
 }
 .projects-div {
     display: grid;
@@ -417,11 +402,4 @@ footer p {
 }
 .contact-row button:hover {
     text-decoration: underline;  
-}
-
-.hidden {
-    display: none;
-    font-size: 0.9rem;
-    color: green;
-    margin-left: 0.5rem;
 }
