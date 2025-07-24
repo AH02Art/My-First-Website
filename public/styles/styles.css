@@ -52,7 +52,7 @@ p {
 .fancy-box {
     border-radius: 16px;
     border: var(--blue), 2px, solid;
-    box-shadow: -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
+    box-shadow: -16px -8px 32px var(--blue), 16px 8px 32px var(--blue_hover);
     background-color: var(--darkerGrey);
 }
 
@@ -120,7 +120,7 @@ footer p {
 
 .img-border {
     border-radius: 100%;
-    box-shadow: 2px 2px var(--black), -10px -4px 32px var(--blue), 12px 8px 16px var(--blue_hover);
+    box-shadow: -16px -8px 32px var(--blue), 16px 8px 32px var(--blue_hover);
     aspect-ratio: 1 / 1;
     overflow: hidden;
     align-items: center;
@@ -424,4 +424,19 @@ footer p {
     font-size: clamp(0.5rem, 1.5rem, 6rem);
     display: inline;
     width: auto;
+}
+.contact-row button {
+    font-size: var(--header4);
+    color: var(--white); 
+    text-shadow: var(--shadow);   
+}
+.contact-row button:hover {
+    text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
+}
+
+.hidden {
+    display: none;
+    font-size: 0.9rem;
+    color: green;
+    margin-left: 0.5rem;
 }

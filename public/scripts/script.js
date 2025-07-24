@@ -69,3 +69,19 @@ document.addEventListener("keydown", (event) => {
 imageOverlay.addEventListener("click", (event) => {
     if (event.target === imageOverlay) closeOverlay();
 });
+
+//// email link copying feature ////
+
+document.getElementById("email-text").addEventListener("click", function () {
+    const email = this.textContent.trim();
+    navigator.clipboard.writeText(email).then(() => {
+        const status = document.getElementById("copy-status");
+        status.classList.remove("hidden");
+        setTimeout(() => {
+            status.classList.add("hidden");
+        }, 2000);
+    }).catch(err => {
+        alert("Failed to copy email.");
+        console.error(err);
+    });
+});
