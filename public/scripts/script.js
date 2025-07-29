@@ -62,6 +62,10 @@ rightButton.addEventListener("click", () => showNextImage(1));
 closeButton.addEventListener("click", closeOverlay);
 
 document.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft") showNextImage(-1);
+});
+
+document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeOverlay();
 });
 
