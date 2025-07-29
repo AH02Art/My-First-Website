@@ -61,7 +61,6 @@ leftButton.addEventListener("click", () => showNextImage(-1));
 rightButton.addEventListener("click", () => showNextImage(1));
 closeButton.addEventListener("click", closeOverlay);
 
-// ESC key and clicking outside of zoomed image to close
 document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeOverlay();
 });

@@ -19,7 +19,7 @@
     --header6: clamp(0.5rem, 1.5vw, 0.5rem);/* fixed, may stay ~8px */
     --shadow: 2px 2px var(--black), 0 0 40px var(--blue_hover), 0 0 10px var(--blue);
 }
-/* look at these pretty purple colors!! #bf00ff; and #aa00ff; */
+/* look at these pretty unused purple colors!! #bf00ff; and #aa00ff; */
 
 body {
     background-color: var(--darkGrey);
@@ -109,7 +109,7 @@ footer p {
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Home Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 
 #home-img {
-    width: clamp(8rem, 25vw, 30rem);
+    width: clamp(16rem, 20vw, 30rem);
     height: auto;
     border-radius: 100%;
     filter: grayscale(100%);
@@ -177,7 +177,7 @@ footer p {
 }
 #left-button, #right-button {
     position: absolute;
-    top: 50%;                /* Center vertically */
+    top: 50%;
     transform: translateY(-50%);
     font-size: var(--header1);
     z-index: 10;
@@ -210,8 +210,6 @@ footer p {
     color: var(--white);
     border: var(--white), 2px, solid;
 }
-
-/* hide overlay by default */
 #image-overlay {
     position: fixed;
     top: 0; left: 0;
@@ -222,7 +220,6 @@ footer p {
     align-items: center;
     z-index: 9999;
 }
-/* when active, show it */
 #image-overlay.active {
     display: flex;
 }
@@ -232,7 +229,6 @@ footer p {
     right: clamp(0.5rem, 1vw, 1rem);
     z-index: 10;
 }
-/* make the inner box only as big as the image + buttons */
 .overlay-content {
     display: flex;
     align-items: center;
@@ -265,7 +261,6 @@ footer p {
 .overlay.active {
     display: flex;
 }
-
 /* <<<<<<<<<<<<<<<<<<<<<<<<< About Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 .about-section {
     margin: clamp(2rem, 8vw, 10rem);
