@@ -1,5 +1,4 @@
 //// Image Pop-up functionality for both the Home & Projects Pages ////
-
 const imageOverlay = document.getElementById("image-overlay");
 const overlayImage = document.getElementById("overlay-image");
 const closeButton = document.getElementById("close");
@@ -77,17 +76,13 @@ imageOverlay.addEventListener("click", (event) => {
 });
 
 //// email link copying feature ////
-
 document.getElementById("copy-email").addEventListener("click", function() {
     const email = this.textContent.trim();
-    console.log("1", email);
     navigator.clipboard.writeText(email)
         .then(() => {
-            console.log("2", email);
             console.log("Email copied to clipboard!");
         })
         .catch((error) => {
-            console.log("3", email);
             console.error("Failed to copy email: ", error);
         })
 });
