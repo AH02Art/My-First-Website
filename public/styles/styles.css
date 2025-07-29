@@ -62,12 +62,16 @@ h3 { font-size: var(--header3); color: var(--white); text-shadow: var(--shadow);
 h4 { font-size: var(--header4); color: var(--white); text-shadow: var(--shadow); }
 h5 { font-size: var(--header5); color: var(--white); text-shadow: var(--shadow); }
 h6 { font-size: var(--header6); color: var(--white); text-shadow: var(--shadow); }
-a { color: var(--white); text-shadow: var(--shadow); }
-p, li { font-size: var(--header4); color: var(--white); }
-
+a { 
+    color: var(--white); 
+    text-shadow: var(--shadow); 
+}
 a:hover {
     text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
+
+p, li { font-size: var(--header4); color: var(--white); }
+
 .nav {
     text-align: center;
     font-size: var(--header4);
@@ -335,14 +339,19 @@ footer p {
 }
 .project-container {
     position: relative;
+    text-align: center;
     margin: clamp(1rem, 4vw, 2.5rem);
     padding: clamp(0.25rem, 3vw, 4rem);
     border: var(--blue_hover) 1px dotted;
 }
 .project-container p {
+    text-align: left;
     font-size: var(--header5);
 }
 .project-container a {
+    display: inline-block;
+    transform-origin: center center;
+    padding-top: clamp(0.5rem, 1vw, 4rem);
     font-size: var(--header4);
     transition: .25s;
 }
