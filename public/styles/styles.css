@@ -48,6 +48,10 @@ body::-webkit-scrollbar {
 p {
     word-wrap: break-word;
 }
+.h-padding {
+    padding-left: clamp(1rem, 10vw, 4rem);
+    padding-right: clamp(1rem, 10vw, 4rem);
+}
 
 .fancy-box {
     border-radius: 16px;
@@ -62,10 +66,7 @@ h3 { font-size: var(--header3); color: var(--white); text-shadow: var(--shadow);
 h4 { font-size: var(--header4); color: var(--white); text-shadow: var(--shadow); }
 h5 { font-size: var(--header5); color: var(--white); text-shadow: var(--shadow); }
 h6 { font-size: var(--header6); color: var(--white); text-shadow: var(--shadow); }
-a { 
-    color: var(--white); 
-    text-shadow: var(--shadow); 
-}
+a { color: var(--white); text-shadow: var(--shadow); }
 a:hover {
     text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }

@@ -5,6 +5,7 @@ const closeButton = document.getElementById("close");
 const leftButton = document.getElementById("left-button");
 const rightButton = document.getElementById("right-button");
 const downloadButton = document.getElementById("download");
+const emailButton = document.getElementById("copy-email");
 
 const imageGroups = {
     certificate: [
@@ -76,13 +77,14 @@ imageOverlay.addEventListener("click", (event) => {
 });
 
 //// email link copying feature ////
-document.getElementById("copy-email").addEventListener("click", function() {
-    const email = this.textContent.trim();
-    navigator.clipboard.writeText(email)
-        .then(() => {
-            console.log("Email copied to clipboard!");
+document.addEventListener("DOMContentLoaded", function() {
+    if (emailButton) {
+        emailButton.addEventListener("click", function() {
+            const email = emailButton.textContent.trim()
+            console.log ("Email ===> ", email);
+            navigator.clipboard.writeText(email)
+                .then(() => console.log("Email copied to clipboard!"))
+                .catch(() => console.error("Failed to copy email: ", error));
         })
-        .catch((error) => {
-            console.error("Failed to copy email: ", error);
-        })
-});
+    }
+})
