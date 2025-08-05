@@ -18,5 +18,5 @@ app.get("/contact", (request, response) => response.render("contact", { title: "
 
 // Starting the server
 app.listen(PORT, function() {
-    console.log(`*** Website is live on: http://localhost:${PORT} ***`);
+    console.log(`*** Website is live on port: ${PORT} ***`);
 });
