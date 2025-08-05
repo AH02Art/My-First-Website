@@ -19,7 +19,7 @@ const imageGroups = {
         "images/pizzaapp.jpg",
         "images/articlesapp.jpg",
         "images/projects.jpg",
-        "images/landing.jpg",
+        "images/asylumlandingpage.jpg",
         "images/asylumgraphspage.jpg",
         "images/asylumprofilepage.jpg"
     ]
