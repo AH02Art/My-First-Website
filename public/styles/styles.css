@@ -14,7 +14,7 @@
     --header2: clamp(1.5rem, 4vw, 3rem);  /* ~24px to ~48px */
     --header3: clamp(1.25rem, 3vw, 2rem); /* ~20px to ~32px */
     --header4: clamp(1rem, 2.5vw, 1.5rem);/* ~16px to ~24px */
-    --header5: clamp(0.875rem, 2vw, 1rem);/* ~14px to ~16px */
+    --header5: clamp(0.75rem, 2vw, 1rem);/* ~14px to ~16px */
     --header6: clamp(0.5rem, 1.5vw, 0.5rem);/* fixed, may stay ~8px */
     --shadow: 2px 2px var(--black), 0 0 40px var(--blue_hover), 0 0 10px var(--blue);
 }
@@ -88,7 +88,7 @@ a:hover {
     text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
 
-p, li { font-size: var(--header4); color: var(--white); }
+p, li { font-size: var(--header5); color: var(--white); }
 
 .nav {
     text-align: center;
@@ -358,13 +358,16 @@ footer p {
 .project-container {
     position: relative;
     text-align: center;
-    margin: clamp(1rem, 4vw, 2.5rem);
-    padding: clamp(0.25rem, 3vw, 4rem);
+    padding: clamp(1rem, 3vw, 2rem);
     border: var(--blue_hover) 1px dotted;
 }
 .project-container p {
     text-align: left;
     font-size: var(--header5);
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
 }
 .project-container a {
     display: inline-block;
