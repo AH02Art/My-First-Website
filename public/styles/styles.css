@@ -88,7 +88,7 @@ a:hover {
     text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
 }
 
-p, li { font-size: var(--header5); color: var(--white); }
+p, li { font-size: var(--header4); color: var(--white); }
 
 .nav {
     text-align: center;
@@ -100,8 +100,8 @@ p, li { font-size: var(--header5); color: var(--white); }
     display: inline-block;
     transform-origin: center center;
     padding: clamp(2rem, 3vw, 4rem);
-    padding-left: clamp(1.5rem, 4vw, 3rem);
-    padding-right: clamp(1.5rem, 4vw, 3rem);
+    /* padding-left: clamp(1.5rem, 4vw, 3rem);
+    padding-right: clamp(1.5rem, 4vw, 3rem); */
     text-decoration: none;
 }
 
@@ -201,8 +201,10 @@ footer p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: var(--header1);
+    font-size: var(--header3);
+    border-radius: 25%;
     z-index: 10;
+    color: var(--blue);
 }
 #left-button {
     left: clamp(0.5rem, 1vw, 1rem);
@@ -211,12 +213,6 @@ footer p {
     right: clamp(0.5rem, 1vw, 1rem);
 }
 
-.navigate-buttons {
-    position: absolute;
-    font-size: var(--header1);
-    border-radius: 25%;
-    z-index: 10;
-}
 .close-button {
     font-size: var(--header3);
     color: var(--white);
@@ -282,6 +278,47 @@ footer p {
 }
 .overlay.active {
     display: flex;
+}
+/* Mobile image overlay styling */
+@media (max-width: 48rem) {
+    .overlay-content {
+        border: none;
+        background: transparent;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .overlay-image-wrapper {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .overlay-image-wrapper img {
+        max-width: 100vw;
+        max-height: 100vh;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* Hide navigation + download buttons for mobile */
+    #left-button,
+    #right-button,
+    .download-button {
+        display: none;
+    }
+
+    /* Make close button unobtrusive in the corner */
+    #close {
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        background: rgba(0,0,0,0.4);
+        border-radius: 50%;
+        padding: 0.5rem;
+    }
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<< About Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 .about-section {
