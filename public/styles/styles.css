@@ -427,6 +427,12 @@ footer p {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Media Query Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 /* Mobile image overlay styling */
+@media (max-width: 1200px) {
+    .projects-div {
+        grid-template-columns: 2fr 2fr;
+    }
+}
+
 @media (max-width: 768px) {
     .overlay-content {
         border: none;
@@ -448,6 +454,9 @@ footer p {
         width: auto;
         height: auto;
         object-fit: contain;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     /* Hide navigation + download buttons for mobile */
@@ -468,4 +477,7 @@ footer p {
     .projects-div {
         grid-template-columns: 1fr;
     }
+}
+@media (max-width: 400px) {
+
 }
