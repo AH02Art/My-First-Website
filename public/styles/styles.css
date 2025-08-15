@@ -66,8 +66,8 @@ p {
     word-wrap: break-word;
 }
 .h-padding {
-    padding-left: clamp(1rem, 10vw, 4rem);
-    padding-right: clamp(1rem, 10vw, 4rem);
+    padding-left: clamp(0.5rem, 5vw, 4rem);
+    padding-right: clamp(0.5rem, 5vw, 4rem);
 }
 
 .fancy-box {
@@ -100,8 +100,6 @@ p, li { font-size: var(--header4); color: var(--white); }
     display: inline-block;
     transform-origin: center center;
     padding: clamp(2rem, 3vw, 4rem);
-    /* padding-left: clamp(1.5rem, 4vw, 3rem);
-    padding-right: clamp(1.5rem, 4vw, 3rem); */
     text-decoration: none;
 }
 
@@ -329,13 +327,12 @@ footer p {
 }
 .fun-row div {
     text-align: right;
-    font-size: clamp(0.25rem, 2.5vw, 6rem);
+    font-size: var(--header2);
     color: var(--white);
     padding-right: clamp(0.5rem, 3vw, 3rem);
 }
-.fun-row h4 {
+.fun-row h2 {
     text-align: left;
-    font-size: clamp(0.25rem, 2.5vw, 6rem);
     color: var(--white); text-shadow: var(--shadow);
 
 }
@@ -478,8 +475,30 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+@media (max-width: 600px) {
+    .fun-row div {
+        font-size: var(--header4);
+    }
+    .fun-row h2 {
+        font-size: var(--header4);
+    }
+}
+@media (max-width: 500px) {
+    .h-padding  {
+        font-size: var(--header5);
+    }
+    .nav a {
+    padding: clamp(0.5rem, 1vw, 1rem);
+}
+}
 @media (max-width: 400px) {
     .about-img-container img {
         display: none;
+    }
+    .fun-row div {
+        font-size: var(--header5);
+    }
+    .fun-row h2 {
+        font-size: var(--header5);
     }
 }
