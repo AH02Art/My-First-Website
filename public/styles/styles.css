@@ -355,13 +355,13 @@ footer p {
 .project-container {
     position: relative;
     text-align: center;
-    padding: clamp(1rem, 3vw, 2rem);
     border: var(--blue_hover) 1px dotted;
+    padding: clamp(0.5rem, 3vw, 3rem);
     margin: clamp(0.5rem, 4vw, 4rem);
 }
 .project-container p {
     text-align: left;
-    font-size: var(--header4);
+    font-size: var(--header5);
     overflow: hidden; 
 }
 .project-container a {
@@ -479,5 +479,7 @@ footer p {
     }
 }
 @media (max-width: 400px) {
-
+    .about-img-container img {
+        display: none;
+    }
 }
