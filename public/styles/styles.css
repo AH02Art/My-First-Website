@@ -428,6 +428,9 @@ footer p {
     .projects-div {
         grid-template-columns: 2fr 2fr;
     }
+    .about-p {
+    font-size: var(--header4);
+    }
 }
 
 @media (max-width: 1000px) {
@@ -471,6 +474,9 @@ footer p {
     }
 }
 @media (max-width: 600px) {
+    .about-p {
+    font-size: var(--header5);
+    }
     .fun-row div {
         font-size: var(--header4);
     }
