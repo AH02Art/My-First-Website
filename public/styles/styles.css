@@ -3,9 +3,9 @@
     --white: #ffffff;
     --black: #000000;
     --blue: #0000ff;
-    --teal: #33ccff;
+    --purple: #bf00ff;
     --blue_hover: #0080ff;
-    --teal_hover: #80dfff;
+    --purple_hover: #c042ffff;
     --lightGrey: #808080;
     --darkGrey: rgba(51, 51, 51, 0.9);
     --darkerGrey: rgba(26, 26, 26, 0.8);
@@ -18,7 +18,9 @@
     --header6: clamp(0.5rem, 1.5vw, 0.5rem);/* fixed, may stay ~8px */
     --shadow: 2px 2px var(--black), 0 0 40px var(--blue_hover), 0 0 10px var(--blue);
 }
-/* look at these pretty unused purple colors!! #bf00ff; and #aa00ff; */
+/* look at these pretty unused colors!! #bf00ff; and #aa00ff; */
+/* look at these pretty unused colors!! #33ccff; and ##80dfff;
+
 /* Background picture credits: https://www.pexels.com/photo/landscape-photography-of-mountains-covered-in-snow-691668/ */
 
 body {
@@ -85,7 +87,7 @@ h5 { font-size: var(--header5); color: var(--white); text-shadow: var(--shadow);
 h6 { font-size: var(--header6); color: var(--white); text-shadow: var(--shadow); }
 a { color: var(--white); text-shadow: var(--shadow); }
 a:hover {
-    text-shadow: 2px 1px var(--black), 0 0 24px var(--teal_hover), 0 0 5px var(--teal);  
+    text-shadow: 2px 1px var(--black), 0 0 24px var(--purple_hover), 0 0 5px var(--purple);  
 }
 
 p, li { font-size: var(--header4); color: var(--white); }
@@ -181,7 +183,7 @@ footer p {
     width: auto;
 }
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<< Certificates Blow-up Styles (WIP) >>>>>>>>>>>>>>>>>>>>>>>>>  */
+/* <<<<<<<<<<<<<<<<<<<<<<<<< Lightbox Styles (WIP) >>>>>>>>>>>>>>>>>>>>>>>>>  */
 .img-buttons {
     color: var(--blue);
     background-color: var(--darkerGrey);
@@ -190,11 +192,11 @@ footer p {
     padding-right: clamp(0.5rem, 2vw, 1rem);
     padding-bottom: clamp(0.25rem, 1vw, 0.5rem);
 }
-.img-buttons:hover {
+/* .img-buttons:hover {
     color: var(--blue_hover);
     background-color: var(--darkerGrey);
     border: var(--blue_hover) 2px solid;
-}
+} */
 #left-button, #right-button {
     position: absolute;
     top: 50%;
@@ -271,8 +273,8 @@ footer p {
     text-align: center;
 }
 .download-button:hover {
-    color: var(--blue_hover);
-    border-color: var(--blue_hover);
+    color: var(--purple_hover);
+    border-color: var(--purple_hover);
 }
 .overlay.active {
     display: flex;
@@ -307,6 +309,9 @@ footer p {
 .fun-container {
     margin: clamp(2rem, 8vw, 10rem);
     padding: clamp(1.25rem, 5vw, 8rem);
+}
+.fun-container p {
+    font-size: var(--header2);
 }
 .fun-space {
     padding-top: clamp(0.875rem, 4vw, 1rem);
@@ -483,6 +488,12 @@ footer p {
     .fun-row h2 {
         font-size: var(--header4);
     }
+    .fancy-box {
+    border-radius: 16px;
+    border: none;
+    box-shadow: none;
+    background-color: var(--darkerGrey);
+}
 }
 @media (max-width: 500px) {
     .h-padding  {
