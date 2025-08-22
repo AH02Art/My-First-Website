@@ -4,6 +4,7 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 5500;
 
+app.disable("x-powered-by");
 app.use(express.static(path.join(__dirname, "public")));
 
 // setting ejs as the template engine
