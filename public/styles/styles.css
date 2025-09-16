@@ -175,14 +175,14 @@ footer p {
     transition: 1.0s;
 }
 
-.skills-img:hover {
-    transform: scale(1.25);
-}
+.skills-img:hover { transform: scale(1.25); }
+
 .thumbnail {
     height: clamp(3rem, 20vw, 12.5rem);
     margin: clamp(1rem, 4vw, 4rem);
     width: auto;
 }
+.thumbnail:hover { cursor: pointer; }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Lightbox Styles (WIP) >>>>>>>>>>>>>>>>>>>>>>>>>  */
 .img-buttons {
@@ -380,6 +380,7 @@ footer p {
     object-fit: cover;
     border: 1px var(--bloomtech) solid;
 }
+.project-thumbnail:hover { cursor: pointer; }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<< Contact Page Styles >>>>>>>>>>>>>>>>>>>>>>>>>  */
 .contact-space {
