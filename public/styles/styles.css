@@ -430,7 +430,7 @@ footer p {
 /* Mobile image overlay styling */
 @media (max-width: 1200px) {
     .projects-div {
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr 1fr;
     }
     .about-p {
     font-size: var(--header4);
