@@ -1,0 +1,965 @@
+commit e44806dc834f4c3b0b5acf7ae23e65fdc8f59c28
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Oct 10 13:28:42 2025 -0500
+
+    wip
+
+commit 16ad105cbccc7d2161fcb5f8e57acf57565abb0e
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Sep 16 14:01:21 2025 -0500
+
+    desktop optimization - added a mouse pointer to hovering over thumbnails
+
+commit 65f8d373dd98bf073bb6a8318ed31f5f7e9259a7
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 26 11:49:23 2025 -0500
+
+    updated font and image contents
+
+commit 7cc2cfa36202ae72c87eef317ed98cf8fe61f3d6
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Aug 22 10:00:33 2025 -0500
+
+    disabled x powered by
+
+commit 1c10e727635c019baa1210b833353cf9286d19f0
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Aug 21 11:15:27 2025 -0500
+
+    Coloring Update - version: 1.0.1
+
+commit bd366358b3de718ab2bf195befe97236dae5601e
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Aug 15 17:07:56 2025 -0500
+
+    updated text
+
+commit d9aad3a4b230c221deb3e769d82e783c4b2a1863
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Aug 15 16:11:58 2025 -0500
+
+    cleaned up some comments
+
+commit 5de2d64b2025fb567d3aa0c47991f828bb5f48dd
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Aug 15 16:03:47 2025 -0500
+
+    mobile optimization wip
+
+commit 5322159f8f79f8b2fff67350aa94807e7601d954
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Aug 15 13:13:27 2025 -0500
+
+    mobile optimization wip
+
+commit 30b0c21d273303df1543a6ac4767fa41fd52604a
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Aug 15 12:47:30 2025 -0500
+
+    mobile optimization wip
+
+commit b5f7fd2b270c0572c8948c694f90768beea35abe
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Aug 15 12:40:57 2025 -0500
+
+    mobile optimization wip
+
+commit 1e74f7417b5d2c8db4ffce57ad477c4ba4e0c297
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Aug 14 18:01:52 2025 -0500
+
+    mobile optimization wip
+
+commit e6cb46a1b45f887d05c01af1c728c4928500e6ed
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Aug 13 19:13:27 2025 -0500
+
+    mobile optimization wip
+
+commit 40764143311314cad1f714f8c6f5b7b3b2db0ff8
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 12 17:46:36 2025 -0500
+
+    added new projects image
+
+commit c8da41d69bc1215234e420e507d04c57e7f98b6f
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 12 17:28:02 2025 -0500
+
+    about text patch
+
+commit 6a73e1ebc044d4283293ede5cb24be86d4fae264
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 5 16:21:28 2025 -0500
+
+    Version 1.0 complete :D
+
+commit 8129c3f1f71c7e89b4507dc66208fd044958d747
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 5 16:18:59 2025 -0500
+
+    updated landing project image
+
+commit 8cf38449ce9410d81dd83073f443fa10e03c98fe
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 5 15:56:18 2025 -0500
+
+    cleaning up cached packages
+
+commit b93c6ba7f950d0abb4927a165edf01fb31965cb6
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 5 15:10:04 2025 -0500
+
+    cleaning up old dev packages2
+
+commit b7b42b7417094d91504cbd41a2ebf011f9ad8590
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 5 14:16:56 2025 -0500
+
+    small update
+
+commit 85ba4866cf7ee5558bece9d755cfef684dba1bb5
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 5 12:21:19 2025 -0500
+
+    Version 1.0 complete! :D
+
+commit 5b6a1ef600c340a8ede9900b4357e02ca5ff728f
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 5 12:11:32 2025 -0500
+
+    stopped tracking nodemon for production
+
+commit 636f297cc45117afc1b9e2b0cc00e05234902ecd
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Aug 5 11:50:00 2025 -0500
+
+    added an icon
+
+commit a1d514ca3a66ed13b6e95771f5dd79e47ff32d37
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Aug 4 17:04:45 2025 -0500
+
+    added background link into commented styles
+
+commit b10bdafd3519499aa22c744307ef742a89b10823
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Aug 4 17:01:54 2025 -0500
+
+    added a nice background & updated navigation button paddings
+
+commit 079fc54fba2b54ad31b65369f25e3719d6e39db5
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Aug 1 09:09:35 2025 -0500
+
+    fixed scripting issue
+
+commit e2d5c2292faa94cbefb75ca7e01024ab860da8de
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 29 18:18:57 2025 -0500
+
+    Version 1.0 Complete?!
+
+commit 280f8a420f9e72af073f3e486461325e601383e7
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 29 18:12:28 2025 -0500
+
+    wip
+
+commit eb0622042794dc50446d0f11d0ec3b88048a9677
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 29 17:04:49 2025 -0500
+
+    wip
+
+commit 0f662fcb3b1e70278558344032145a909da69a10
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 29 16:53:14 2025 -0500
+
+    updated right button
+
+commit 920fe4d9f0eec8329f02348538c1c236702682bc
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 29 16:52:20 2025 -0500
+
+    updated left button
+
+commit 141fbada7058b1684d821995a80559f1ec74d6da
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 29 16:27:14 2025 -0500
+
+    version 1.0
+
+commit a3154d5804bc24dca783a69599b165044f64463b
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jul 24 17:20:17 2025 -0500
+
+    updated projects summary
+
+commit 61096c2dc6a49ba6a61b0d3f58eff7b58f45f399
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jul 24 13:08:14 2025 -0500
+
+    extra work
+
+commit f08a57f49c0eab3671ee196c958d454509c4c2c6
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jul 24 12:38:57 2025 -0500
+
+    fixed clamp issue
+
+commit eb4bc4dba837d1be568be420f899febba2dcf51d
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jul 24 11:07:13 2025 -0500
+
+    added a copy email function
+
+commit c7618239c63d39af4a80400de9406c6efd494cac
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jul 24 10:21:16 2025 -0500
+
+    updated fancy border
+
+commit b9cfa90d7553678ecc05180e73f8bb8443a09200
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jul 18 19:13:02 2025 -0500
+
+    clamp() lessons incoming lol
+
+commit 52df505d265505ea6f2a1beb0211aa079629f773
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jul 18 18:35:09 2025 -0500
+
+    need to make some changes
+
+commit bc5f4d137b74043172b54053068e03a15fee7de2
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jul 18 18:24:08 2025 -0500
+
+    image scaling
+
+commit de05a2a23d18b1845d66a6130b7bfed0d1211cd5
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Jul 16 22:03:28 2025 -0500
+
+    updated version
+
+commit 501e598df5a46ea29fc550ae0032b6828558ab08
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Jul 16 22:02:05 2025 -0500
+
+    reapplied download button
+
+commit 79aae1e39355259559ca0f4f6e5bc21f2fb62166
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Jul 16 21:50:02 2025 -0500
+
+    combined certificate and projects blow-up functionality
+
+commit 0da85938ba1021c9ca0b24a11ea42c1200e59fdd
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Jul 12 17:44:19 2025 -0500
+
+    wip
+
+commit 971f63122556cca58f08dc40aece99b0ef0d09ec
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jul 11 17:13:37 2025 -0500
+
+    wip
+
+commit 94a20043a9562331fdb13b00fccf2d46f096f890
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jul 11 16:20:09 2025 -0500
+
+    polished the about page
+
+commit 09bda2fdee2ffb30c770aed64e4bdd447617d357
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 8 20:44:59 2025 -0500
+
+    wip
+
+commit a6ed63d2bcc4e0707d54fe7eaedd2c576bfb5b43
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 8 17:29:12 2025 -0500
+
+    reverted changes
+
+commit 43d316b3c6b45456751080927e61cfbfacfdf4e9
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Jul 5 16:46:04 2025 -0500
+
+    continue later
+
+commit 327349fd2ac599c3f615eeda9bc23a169034fbba
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Jul 5 14:24:43 2025 -0500
+
+    cleaned up the contact page!!
+
+commit 7fd5addd7a6da676002106e4216aec25d0314684
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Jul 5 13:02:17 2025 -0500
+
+    wip
+
+commit 90e41abb3290c2700e2b24551f2f7c333c844797
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jul 3 20:52:55 2025 -0500
+
+    almost done!!
+
+commit 69a9e0b98e7b9f65ddd31302b8e546e920424d16
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jul 3 19:56:53 2025 -0500
+
+    finished styling about page
+
+commit a0d45c0449811f53dc9f853616c658d9cb9cd9a2
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jul 3 19:22:35 2025 -0500
+
+    finished styling projects
+
+commit 5d84a2e9508fef0eac165b3757c49156ca3431b3
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 1 21:18:26 2025 -0500
+
+    wip
+
+commit cb07723fd343c2bece3d2a07c048c051f9ea91f3
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jul 1 17:21:10 2025 -0500
+
+    wip
+
+commit 512da9c6fb27afe630b929fdf05a5e937971ce9d
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Jun 30 18:48:14 2025 -0500
+
+    projects wip
+
+commit 9d2d92204949d04110ec3094a619df5d02dde4a2
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Jun 30 16:49:19 2025 -0500
+
+    updated image overlay
+
+commit 589bddf94a0b74e219688ba66a68f38c2c4b83be
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Jun 30 16:15:28 2025 -0500
+
+    fixed image issue
+
+commit 4abfcb5ae022d91b96adb828b00033284ac39dc9
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jun 26 23:22:05 2025 -0500
+
+    wip
+
+commit 03e6fc7fd04fe04490cdaf4c8a3f966d304e9bd3
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 24 18:51:39 2025 -0500
+
+    edited overlay box again
+
+commit c28c32fb647824758952fc198b56846144e4463d
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 24 18:32:17 2025 -0500
+
+    wip
+
+commit 67ba6ac9f66f29c88134c2061cbba25196d26463
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 24 18:19:03 2025 -0500
+
+    screen wip
+
+commit 05720be0227e82aa6395a697ec187c4838d081a3
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 24 15:37:35 2025 -0500
+
+    wip
+
+commit 45adf9b82a1b5169d7866bee87f96925315f1684
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jun 20 15:34:14 2025 -0500
+
+    wip
+
+commit 88f4107ea708b888b7820aec45c333194ed2a42c
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jun 20 15:01:23 2025 -0500
+
+    added flexible fonts
+
+commit 5fb346b354012383434c4400c09bd3a1a50af287
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 17 18:05:52 2025 -0500
+
+    added ids for the project thumbnails
+
+commit 595fb1b5a2d8008e273b054f4b01660ed4f017c0
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 17 17:24:13 2025 -0500
+
+    new home page grid wip
+
+commit 598afa141a13bbd4d494fa0cc4b1461dca7bf53d
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 17 16:54:31 2025 -0500
+
+    added skill icons for home page
+
+commit 308dbd805d3dfa6c73fcc8e42524b6b974e117a1
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jun 13 17:03:27 2025 -0500
+
+    wip
+
+commit cd6dbb975b908ad86f72c0daa50007c60f37eea5
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jun 13 12:45:10 2025 -0500
+
+    balanced divider spaces
+
+commit be002d049fd4951fb569f968a85d29f21dbeff81
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Jun 13 12:36:08 2025 -0500
+
+    added site version in the footer
+
+commit 0c1db8605ae1c5546858823848a4999116625aa8
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jun 12 17:12:18 2025 -0500
+
+    updated about paragraph
+
+commit 4e1996395d8d58dfb9d595b170443472438a832e
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Jun 12 17:06:38 2025 -0500
+
+    added new updated photo
+
+commit 35dc13981bf55909c4b55b7a3de77b96514a12c1
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 3 15:26:59 2025 -0500
+
+    will add projects to image pop-ups later
+
+commit 8dbecbcf4ad156f033569c5cff2132420395a7c1
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 3 15:21:52 2025 -0500
+
+    first version of website completed
+
+commit 7f4880e196e188117a4fa885dcc660a95f9ab6b6
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 3 15:15:02 2025 -0500
+
+    updated projects page
+
+commit 945e5ff683647bf9b772fdd2e3ce7c2851ac5f37
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Jun 3 14:01:32 2025 -0500
+
+    updated projects page
+
+commit 60aa6636d9b8466883d718f82e3a40b2dc3dae51
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Jun 2 18:34:22 2025 -0500
+
+    styles wip
+
+commit 2eb727246caa3609bfb2ee50dec4939fe3826621
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri May 30 12:35:48 2025 -0500
+
+    organizing styles
+
+commit 13d83df539295362313c7538013eb39572dd7163
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri May 30 12:29:18 2025 -0500
+
+    wip
+
+commit 15e584ef055182dcd5b3ada58376da9e8b54a543
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu May 29 23:12:11 2025 -0500
+
+    continue this tomorrow Alex
+
+commit a118fa4f4741a0863ba93425c1fb9fe5c09833f6
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue May 27 22:15:52 2025 -0500
+
+    birthday
+
+commit 622fc949a66210006d7d9caa30cfb0d11436f6ae
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon May 26 20:07:42 2025 -0500
+
+    working on overlay again
+
+commit 8f83fdd4829078407ced8f1031974817d73efdc3
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat May 24 16:53:04 2025 -0500
+
+    sleepy
+
+commit aa62b608cf52b464ee1406a5bdf89de329915f36
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat May 24 16:43:43 2025 -0500
+
+    sleepy
+
+commit d8700caefbebd823b593eed62b041d358a1365ab
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu May 22 00:09:55 2025 -0500
+
+    projects wip
+
+commit 281984756275a9902fc0160edba972717529b5bf
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed May 21 23:54:20 2025 -0500
+
+    grid is looking better
+
+commit ddd9b74601e62c2ad1a37418aed815ae5441304f
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed May 21 23:18:39 2025 -0500
+
+    im tired
+
+commit f60f76e3bae30f7f308a07a5d25fabaade82de79
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri May 16 17:35:52 2025 -0500
+
+    fun-facts grid wip
+
+commit ff86b3a85946bd1096dba4b69b2e98d2f7edbfea
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri May 16 16:45:22 2025 -0500
+
+    fun-facts grid wip
+
+commit c8d91d741212c3615f1477c8768a6134fae57887
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri May 16 01:00:12 2025 -0500
+
+    grid wip
+
+commit f4ad7b0a2df8f09a9dd48cc9b61a30e4955005fe
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu May 15 23:45:08 2025 -0500
+
+    styling the about page
+
+commit dbcd13bcbad70e46ef9d8133281232a934decbe2
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue May 13 22:16:30 2025 -0500
+
+    wip
+
+commit 0349043815b549e83511989b9afc4e985ec0ebd3
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue May 13 21:23:10 2025 -0500
+
+    added project links
+
+commit 0f5f8763049932f0b3cf545144fd4cafcea4b831
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat May 10 15:05:47 2025 -0500
+
+    wip
+
+commit ecbd9e9be63e86292f7cfa87dafc46c482480298
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat May 10 14:41:10 2025 -0500
+
+    wip
+
+commit 639ad45b74e8e9e0d1d8c75d7f1e1656c11c99f0
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu May 8 23:54:41 2025 -0500
+
+    wip
+
+commit e4ff514720c1bba85b30a391ae2c2f7099e98e48
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed May 7 19:33:16 2025 -0500
+
+    wip
+
+commit e8a084ae349383b9a9032a5167683a2b1f2d0cb9
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed May 7 19:20:54 2025 -0500
+
+    scaffolded projects page
+
+commit 90fba2ec5e348efec0a5d01ee1b87814663f1ab9
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat May 3 15:18:59 2025 -0500
+
+    projects page wip
+
+commit e328fd078d42d4c14d24aebe2f74852663d0333f
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri May 2 22:22:13 2025 -0500
+
+    added some pictures into my projects page
+
+commit f035e259c67ba6364d42605e3f56ee0d13022292
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu May 1 15:20:49 2025 -0500
+
+    overlay wip
+
+commit 91c0402f1f80f25c3873847c6cf88c435859af0b
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu May 1 13:37:06 2025 -0500
+
+    overlay wip
+
+commit fd1c4493f2ce5f3435e349f59a0542a924496364
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Apr 29 22:37:09 2025 -0500
+
+    added projects images
+
+commit 43d8bf8dd5f597e3ace4c6fa33336f374709706e
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Apr 26 16:17:20 2025 -0500
+
+    added a download button on home page
+
+commit 1050d42d67cb0a5d62c5f079eb6d0e566bc66349
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Apr 24 20:28:32 2025 -0500
+
+    fixed express error for download
+
+commit 073e248fbb21ef840c5e446e6beb58d3db1e50cf
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Apr 24 20:15:39 2025 -0500
+
+    lightbox screen wip
+
+commit d93237d09b3557b4094532b440d557ea0b247196
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Apr 22 20:31:28 2025 -0500
+
+    wip
+
+commit 67d142bc62ce92c981f768d6e866d0b51e06ab40
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Apr 21 19:58:01 2025 -0500
+
+    lazy
+
+commit fd37456b3607abe3797c1b1a331e0aa8ffbd81c1
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Apr 18 23:29:32 2025 -0500
+
+    wip projects page
+
+commit 6b7e9b49f25d17a47e59e32986b84ca4d4ff447e
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Apr 18 22:58:58 2025 -0500
+
+    added a projects tab
+
+commit 0c78a7293bccff106070fef674c1f67b0d891d7c
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Apr 18 22:56:28 2025 -0500
+
+    added more skills
+
+commit 854363ff4326dcb0ecb9c3b976ddff5670269158
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Apr 17 20:37:30 2025 -0500
+
+    wip
+
+commit 08d0da1af8070e1e9d0786feb5157e184ceda5ba
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Apr 15 22:23:08 2025 -0500
+
+    working on about page
+
+commit ea91cae37bdd36447baab391ce7c9a01ee28f219
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Apr 12 16:47:47 2025 -0500
+
+    scaffolded a download button
+
+commit 89da6926e5dcc64e5034a43e04cb817e874ef8a3
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Apr 11 19:07:57 2025 -0500
+
+    added some random facts
+
+commit 7a0b808a114692dbcc6ae655cbdaf384c4d1b0cf
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Apr 10 14:57:20 2025 -0500
+
+    wip
+
+commit aaeb503ee3e5ce50723204994b0da8615f8ef45c
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Apr 8 19:47:49 2025 -0500
+
+    edited links
+
+commit e6a9a65b3e80c4eccb08d618e1787d028f1c8375
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Apr 7 19:07:57 2025 -0500
+
+    made some new plans
+
+commit c5aab404949ddaefdad4377e4cab300acb2ebaa0
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Apr 5 15:05:03 2025 -0500
+
+    image buttons wip
+
+commit 10d748c87cf50fb84193e82862baa5d87dd27930
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Apr 2 21:39:04 2025 -0500
+
+    wip
+
+commit fc511459282cfb1be4e6c568c7d93089b6f0d451
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Apr 1 12:56:00 2025 -0500
+
+    added cool stuff to home page
+
+commit 3f9aefd9cc8aea01648f4b0d0213b8b48a4b3ae2
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Mar 31 15:55:57 2025 -0500
+
+    wip
+
+commit ebec39965fadd7c086c5adf31113985d9449d125
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Mar 27 20:03:28 2025 -0500
+
+    continue later
+
+commit c450f095c9f0646584550d95c6c27670392c68aa
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Mar 27 19:54:53 2025 -0500
+
+    wip
+
+commit 25aa6e2feabcc11f835ac9da7b7e6342e3a899f2
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Mar 26 16:51:44 2025 -0500
+
+    wip
+
+commit d932cf1f517bc5c08b83af45ec401fff755b1c24
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Mar 26 14:33:42 2025 -0500
+
+    starting scripts
+
+commit 0bcfd0f0f67cb1478b752cf53255817312824168
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Mar 25 15:31:35 2025 -0500
+
+    continue later
+
+commit 3c81a74537c29fc3ddf2975807559237ca06508d
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Mar 25 15:22:16 2025 -0500
+
+    doing good so far!
+
+commit 38a5ab982796dc3b7152ce1a7a40ed833fddcbc4
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Mar 24 23:51:48 2025 -0500
+
+    started contact page
+
+commit 251256a39a96b6a80a93406aee840e39403329ea
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Mar 22 14:25:40 2025 -0500
+
+    wip
+
+commit 93d8f3bb88b82cfdb523573c99c99405675c7fde
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Mar 20 20:01:10 2025 -0500
+
+    old version of project moved over to second branch
+
+commit bedf8fa5168080b85774aca1d66fad8c1452515e
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Mar 20 19:54:13 2025 -0500
+
+    project updated to ejs
+
+commit 563f9c86e6dbbd058b7886dfc7113de92f2935bb
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Mar 19 01:12:05 2025 -0500
+
+    home page wip
+
+commit db204942f2f2b690871091d3944d435bc82146ea
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Mar 18 18:11:54 2025 -0500
+
+    reapplying page elements
+
+commit a3c3e59b2ad7ad0a403081959e0339cfdff42a04
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Mar 17 19:46:14 2025 -0500
+
+    changing project to ejs
+
+commit c7ab29aedd8a67b463e5ddc2faf956a5ab4341a5
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Mar 13 16:15:47 2025 -0500
+
+    wip
+
+commit d895528cd8caf01a5626f1998153d011b5e9241a
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Mar 13 15:37:55 2025 -0500
+
+    made cool image border
+
+commit 1f71703e4e4c10a27fb5f56ee01ad6b7f0b72676
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Mar 13 15:09:12 2025 -0500
+
+    wip
+
+commit cd8acc07a7cc06de95ab8bbe7cad242b77711a8f
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Mar 12 22:58:59 2025 -0500
+
+    fixed image problem
+
+commit d03e5d03d561576d0fa89e81b2e72eaa56cf61ff
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Mar 12 17:40:14 2025 -0500
+
+    wip
+
+commit 21850b5f90656c211946b6a5b4459d5740f156ce
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Mar 10 18:56:56 2025 -0500
+
+    wip
+
+commit 7fef43de3a2c9c9479631a81db6e431a94f07204
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Mar 8 15:51:48 2025 -0600
+
+    wip
+
+commit 52b38af897098667936f531fd06fdb43b7b6763f
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Mar 8 13:56:04 2025 -0600
+
+    improved styles
+
+commit 96f582ad25c53d9bc12c84d0d90cd12ad5536f9d
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Mar 4 18:06:31 2025 -0600
+
+    styles wip
+
+commit 9c9545179c4eda7aed5c7b26a6d29c56ab65e093
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Mar 4 15:57:21 2025 -0600
+
+    organized my stylesheets
+
+commit 101dd3ab511aeb046d5e22c5f69895133fe86638
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Mar 4 14:41:33 2025 -0600
+
+    fixed some routing bugs
+
+commit 8f01c491cf1e5422f8c1d0220889e59a7e0a0907
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sat Mar 1 18:55:05 2025 -0600
+
+    wip
+
+commit d0bd978b1f3c0f51a6c89462c0ed0ace4595a049
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Feb 28 18:45:19 2025 -0600
+
+    wip
+
+commit 9cb159a3268ae50af23005e85426077cc86a4b6b
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Feb 28 15:14:46 2025 -0600
+
+    wip
+
+commit 01dcfda01554e6906b07b59d0227dbaeba44a94d
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Feb 26 21:44:08 2025 -0600
+
+    added default styling
+
+commit d51c7706e2cb2539e7a9dbe33f94c739def3cef5
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Wed Feb 26 19:53:18 2025 -0600
+
+    updated routes
+
+commit 0417a272aa5a4346a14b8c64d8cc90cede69fb3e
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Mon Feb 24 19:04:03 2025 -0600
+
+    set up the single page application
+
+commit 66c144687e8220523b13db9b814d203b6c924441
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Feb 21 18:52:12 2025 -0600
+
+    wip
+
+commit 252c43848189cc3e13e0fd556c2e6eddb3d36dcd
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Fri Feb 21 16:04:02 2025 -0600
+
+    set up live browser refresh with nodemon
+
+commit 2f8943f1a4e5d8acb4bf8f200e326ea360ee78ce
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Feb 20 20:04:31 2025 -0600
+
+    set up references page
+
+commit c1bf722ebe0bea0d954f3cf4435459683b15895e
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Thu Feb 20 17:34:39 2025 -0600
+
+    set up express server
+
+commit 6afa57d9a6a6f2fdb8629a1dcf40b2863b6ae3eb
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Sun Feb 16 16:01:12 2025 -0600
+
+    added an index.html
+
+commit 018917d7a3e97e4f6302c1c8dc4635c81b12bfad
+Author: Alex Handley <smithvillescholarsah@gmail.com>
+Date:   Tue Feb 11 14:40:33 2025 -0600
+
+    getting started
+
+commit 41dc641e2f32e1876056079c3986485b6c5e05cb
+Author: Alex <142055170+AH02Art@users.noreply.github.com>
+Date:   Tue Feb 11 13:17:40 2025 -0600
+
+    Initial commit
